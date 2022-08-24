@@ -42,6 +42,8 @@ html{
 .hero-heading{
     margin-bottom: 4rem;
     height: 20rem;
+    perspective: 50rem;
+    overflow: hidden;
 }
 
 .hero-heading span{
@@ -49,6 +51,55 @@ html{
     font-size: 12rem;
     font-weight: 400;
     color: antiquewhite;
+    text-transform: uppercase;
+    text-shadow: 0.3rem 0.3rem 0.6rem rgba(0, 0, 0, 0.5);
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    transform: translateZ(8rem);
+    opacity: 0;
+    letter-spacing: 2rem;
+}
+
+/* Animation settings for spans */
+
+.title_one{
+    animation: animateTitle 12s 2s 
+    infinite;
+}
+.title_two{
+    animation: animateTitle 12s 6s 
+    infinite;
+}
+
+@keyframes animateTitle{
+    0%{
+        transform:translateZ(8rem);
+        opacity: 0;
+        letter-spacing: 3rem;
+    }
+    3%{
+        transform: translateZ(0);
+        opacity: 1;
+        letter-spacing: 1.5rem;
+    }
+    25%{
+        transform: translateZ(0);
+        opacity: 1;
+        letter-spacing: 1.5rem;
+    }
+    30%{
+        transform: translateZ(8rem);
+        opacity: 0;
+        letter-spacing: 3rem;
+    }
+    100%{
+        transform: translateZ(1rem);
+        opacity: 0;
+        letter-spacing: 3rem;
+    }
+
 }
 
 .hero_text{
@@ -61,6 +112,22 @@ html{
     margin: 0 auto 4rem auto;
     padding: 1rem 0;
     box-shadow: 1rem 1rem 5rem rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    visibility: hidden;
+    animation: textAnimation 1s 1.5s
+    forwards;
+}
+
+@keyframes textAnimation {
+    0%{
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    100%{
+        opacity: 1;
+        visibility: visible;
+    }
 }
 
 .btn-hero{
