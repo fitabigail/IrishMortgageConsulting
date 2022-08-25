@@ -299,3 +299,20 @@ html{
 }
 
 /* End of section 1 style */ 
+
+/*Section About style */
+
+.cube_section{
+
+    width: 100rem;
+    height:50rem;   
+    position:relative; 
+
+}
+
+.viewport{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
