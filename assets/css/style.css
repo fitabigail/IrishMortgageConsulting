@@ -151,7 +151,7 @@ html{
 .section_one{
     width: 100%;
     height: 100vh;
-    background: url(../images/homeImage.jpg) no-repeat;
+    background: url(../images/homeHero.jpg) no-repeat;
     background-size: cover;
     position: relative;
 }
@@ -233,12 +233,14 @@ html{
 }
 
 .hero_text{
-    font-size: 4rem;
-    font-weight: 400;
+    font-size: 3rem;
+    font-weight: 300;
+    text-align: center;
     text-transform: uppercase;
+    border-radius: 0.8rem;
     color:antiquewhite;
     background-color: rgba(0, 0, 0, 0.6);
-    width: 30%;
+    width: 50%;
     margin: 0 auto 4rem auto;
     padding: 1rem 0;
     box-shadow: 1rem 1rem 5rem rgba(0, 0, 0, 0.5);
@@ -247,7 +249,12 @@ html{
     animation: textAnimation 1s 1.5s
     forwards;
 }
-
+.hero_text span{
+    font-family: "Oswald", sans-serif;
+    color: #f14f0e;
+    font-size: 4rem;
+    font-weight: bold;
+}
 /* Paragraph Animation style */
 
 @keyframes textAnimation {
@@ -305,12 +312,13 @@ html{
 
 .section_about{
     width: 100%;
-    height:100vh;
+    height:120vh;
     background-color: rgba(7, 6, 6, 0.925);
     display: flex;
     align-items: center;
     padding: 0 10rem;
     position: relative;
+    padding-bottom: 5rem;
     
 }
 
@@ -323,6 +331,7 @@ html{
     right: 10rem; 
     box-shadow: 3rem 3rem 3rem rgba(0, 0, 0, 0.87);
     overflow: hidden;  
+    margin-bottom: 2rem;
    
  
 }
@@ -343,6 +352,7 @@ html{
     transform: translateY(calc(100% - 0.4rem));
     transition: transform.4s;
 }
+
 .video_section:hover .controls{
     transform: translateY(0);
 }
@@ -392,7 +402,7 @@ html{
     background-color:antiquewhite;
     margin-left: 4rem;
     margin-top: 1rem;
-    margin-bottom: 2rem;
+    margin-bottom: 0.5rem;
 
 }
 
@@ -400,14 +410,14 @@ html{
 
     width: 100rem;
     position: absolute;  
-    bottom: 0;
+    bottom: 3rem;
     right: 10rem;
     color:antiquewhite;
     font-size: 2rem; 
     border-top: 0.2rem solid antiquewhite;
     border-bottom: 0.2rem solid antiquewhite;
     padding: 1rem;
-    margin-top: 8rem;
+   /* margin-top: 8rem;*/
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -432,37 +442,170 @@ html{
   
   }
   
+
+  /* TEAM SECTION */
+
+  .team{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem 20rem 5rem;
+  }
+
+.team_heading{
+    font-family: "Qswald" ,sans-serif;
+    font-size: 8rem;
+    font-weight:300;
+    color:rgba(0, 0, 0, 0.884);
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+
+}
+
+
+ .team_line{  
+    width: 20rem;
+    height: 0.2rem;
+    background-color:rgb(0, 0, 0);
+    margin-left: 4rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.cards_wp{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-top: 8rem;
+    
+
+}
+
+.card {
+    width: 37rem;
+    height: 45rem;
+    box-shadow: 3rem 3rem 3rem rgba(0, 0, 0, 0.87);
+    border-radius: 0.5rem;
+    position: relative;
+
+}
+
+.img-wp{
+    width: 100%;
+    height: 100%;
+    border-radius: 0.5rem;
+}
+
+.img-wp img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.9;
+    border-radius: 00.5rem;
+    transition: opacity 0.3s;
+}
+.card:hover .img-wp img{
+    opacity: 0.8;
+}
+
+.card_info{
+    position: absolute;
+    bottom: 0;
+    padding: 2rem;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s;
+    
+}
+
+.card:hover .card_info{
+    bottom: 2rem;
+    opacity: 1;
+    visibility: visible;
+    
+}
+.card_info h2{
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+    font-weight: 300;
+    color:antiquewhite;
+    text-shadow: 0.2rem 0.5rem rgba(0, 0, 0, 0.6);
+}
+.card_info h3{
+    font-family: 'Oswald', sans-serif;
+    font-size: 2rem;    
+    font-weight: 400;
+    color:#ce5713;
+    margin-bottom: 1rem;
+}
+ .card_info p{
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.7rem;
+    letter-spacing: 0.1rem;
+    font-weight: 400;
+    color:antiquewhite ;
+    width: 80%;
+    margin-bottom: 2rem;
+    text-shadow: 0.1rem 0.2rem rgba(0, 0, 0, 0.6);
+ }
+
+ .card_info button{
+    height: 3rem;
+    width: 10rem;
+    background-color: #ce5713;
+    border: none;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    color: antiquewhite;
+    border-radius: 1rem;
+    box-shadow:0.2rem 0.5rem rgba(0, 0, 0, 0.6);  ;
+
+ }
   /* Footer style */
 
  .footer{
     width: 100%;
-    height: 12rem;
+    height: 20rem;
     background-color:  hsla(0, 0%, 5%, 0.966);
     display: flex;
     justify-content: space-between;
     align-items:center;
-    padding: 0 10rem;
+    padding: 10rem;
     color: antiquewhite;
+    margin-top: 15rem;
 
  } 
 
-.footer_nav{
+.footer_contact{
     font-family: 'Oswald', sans-serif;
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin-right: 3rem;
     letter-spacing: 0.2rem;
+    line-height: 3rem;
+    padding-top: 5rem;
+    padding-bottom: 3rem;
    
 }
-.footer_nav a:hover{
+.address a:hover{
     color:#8f2b04;
-    transition: color 3s ;
-    text-decoration: underline;
+    transition: color 2s;
+    
+}
+
+.address span{
+    color: #ce5713;
+    font-size: 3rem;
 }
 
 .social{
     font-family: 'Oswald', sans-serif;
     font-size: 2rem;
     letter-spacing: 0.2rem;
+    
 }
 
 .copyright{
@@ -470,3 +613,33 @@ html{
     font-size: 1.5rem;
     letter-spacing: 0.2rem;
 }
+
+
+/* Media querry index.html */
+
+@media(max-width:1600px){
+
+    .video_section{
+        width: 85rem;
+        height: 40rem;
+        right: 5rem;
+    }
+    .about_text{
+        width: 85rem;
+        right: 5rem;
+        bottom:10rem;
+    }
+
+    .cards_wp{
+        flex-direction: column;
+        justify-content:space-around;
+        align-items: center;
+        
+
+    }
+
+html{font-size: 57%;}    
+
+    
+}
+
