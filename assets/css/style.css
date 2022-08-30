@@ -543,13 +543,14 @@ html{
  .card_info p{
     font-family: 'Oswald', sans-serif;
     font-size: 1.6rem;
+    font-weight:bold ;
     line-height: 1.7rem;
     letter-spacing: 0.1rem;
     font-weight: 400;
-    color:antiquewhite ;
+    color:rgb(37, 36, 34) ;
     width: 80%;
     margin-bottom: 2rem;
-    text-shadow: 0.1rem 0.2rem rgba(0, 0, 0, 0.6);
+    /*text-shadow: 0.1rem 0.2rem rgba(0, 0, 0, 0.6);*/
  }
 /*
  .card_info button{
@@ -591,6 +592,10 @@ html{
     
    
 }
+.address a{
+    color: antiquewhite;
+
+}
 .address a:hover{
     color:#8f2b04;
     transition: color 2s;
@@ -609,6 +614,14 @@ html{
     padding-left: 3rem;
     padding-right: 3rem;
     
+    
+}
+.social a{
+    color: antiquewhite;
+    
+}
+.social a:hover{
+    color: #ce5713;
 }
 .social p{
     font-size: 1.5rem;
