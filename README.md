@@ -69,7 +69,17 @@ We continually tweak and adjust this template to help give you the best experien
 **December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
 
 ------
+## Images for Project
 
+ * Images obtained 
+ 
+ + Hero Background Image: 
+ + Hero Image: https://www.pexels.com/photo/a-real-estate-agent-discussing-a-document-to-a-man-7415057/
+ + Team Image1 : https://www.pexels.com/photo/selective-focus-photo-of-man-holding-black-suit-jacket-1311523/
+ + Team Image2 : https://www.pexels.com/photo/a-woman-in-black-blazer-sitting-on-white-chair-8074612/
+ + Team Image3 : https://www.pexels.com/photo/man-in-white-dress-shirt-holding-suit-jacket-1043474/
+ + Mortgage Calculator banner: https://www.pexels.com/photo/crop-faceless-person-using-laptop-in-darkness-5926378/
+ 
 ## FAQ about the uptime script
 
 **Why have you added this script?**
