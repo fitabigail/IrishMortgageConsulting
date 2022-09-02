@@ -853,7 +853,7 @@ html{
     font-family: 'Oswald', sans-serif;
     width: 100%;
     margin: 2rem 0;
-    height: 30vh;
+   /* height: 30vh;*/
     box-shadow: 0.5rem 0.5rem 0.5em rgba(0, 0, 0, 0.6);
     background-color: rgba(255, 255, 255, 0.925);
     display: flex;
@@ -863,8 +863,20 @@ html{
     color: #000;
 }
 
-.mortgage_calc .heading-calc{
-    background-color: #000;
+.mortgage_calc .top{
+    width: 100%;
+    margin: 4rem 0;
+    background-color: rgb(131, 67, 7);
     color:antiquewhite;
     padding:2rem ;
 }  
+
+.mortgage_calc .top h2{
+    margin-top: 0;
+}
+
+.mortgage_calc form{
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+}
