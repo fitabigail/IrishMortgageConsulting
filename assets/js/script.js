@@ -48,7 +48,7 @@
 
     })
 
-/* MORTGAGE CALCULATOR */
+// Mortgage calculator
 
 const mortgageAmountInput = document.querySelector(".mortgage_amount");
 const mortgageYearsInput = document.querySelector(".mortgage_years");

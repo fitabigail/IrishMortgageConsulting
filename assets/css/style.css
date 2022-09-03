@@ -942,6 +942,7 @@ input{
     justify-content: space-between;
     align-items: center;
     margin-top: 5rem;
+    box-shadow: 0.5rem 0.5rem 0.5em rgba(0, 0, 0, 0.6);
 }
 
 .results .left_side{
@@ -964,6 +965,7 @@ input{
     padding-bottom: 1rem;
     border-bottom: 1px solid rgb(49, 47, 44, 0.2);
     margin-left: 5rem;
+    margin-bottom: 10rem;
 
 }
 .results .value::before{
@@ -974,19 +976,19 @@ input{
 }
 
 .results .calc_btn{
-    background-color:rgb(131, 67, 7);
+    background-color:rgba(5, 4, 4, 0.7);
     color: antiquewhite;
     border: none;
     padding: 0.5rem 2rem;
-    border-radius: 0.5rem;
-    font-size: 2rem;
+    border-radius: 50px;
+    font-size: 3rem;
     font-weight: 800;
     cursor: pointer;
     margin-top: 3rem;
     margin-left: 5rem;
     margin-bottom: 10rem;
-    width: 15rem;
-    height: 5rem;
+    width: 25rem;
+    height: 10rem;
 
 }
 .results .reset_btn{
@@ -1029,4 +1031,75 @@ input{
     flex-direction: column;
     text-align: center;
 }
+}
+
+/* Booking meeting form section */
+.form_wp{
+    display: none;
+}
+
+.booking-wp{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.booking{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0.5rem 0.5rem 0.5em rgba(0, 0, 0, 0.6);
+    justify-content: center;
+    align-items: center;
+}
+
+.booking_banner{
+    font-size: 6rem;
+    font-weight: 300;
+    color: rgba(0, 0, 0, 0.884);
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+    margin-top: 10rem;
+    margin-left: 5rem;
+    border-top: 0.2rem solid  rgb(49, 47, 44);
+    border-bottom: 0.2rem solid  rgb(49, 47, 44);
+    
+    
+}
+
+.booking_btn{
+    background-color:rgb(131, 67, 7);
+    color: antiquewhite;
+    border: none;
+    padding: 0.5rem 2rem;
+    border-radius: 50px;
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+    font-weight: 800;
+    cursor: pointer;
+    margin-top: 3rem;
+    margin-left: 5rem;
+    margin-bottom: 10rem;
+    width: 25rem;
+    height: 10rem;
+    transition: transform .3s;
+}
+
+.booking_btn :hover{
+    transform: translateY(-1px);
+}
+
+@keyframes anim {
+    0% {transform: translateY(0);}
+    20% {transform: translateY(0);}
+    40% {transform: translateY(-30px);}
+    50% {transform: translateY(0);}
+    60% {transform: translateY(-15px);}
+    80% {transform: translateY(0);}
+    100% {transform: translateY(0);}
+}
+.booking_arrow{
+    font-size: 5rem;
+    margin-bottom: 2rem;
+    margin-top: 4rem;
+    animation: anim 3s infinite;
 }
