@@ -1125,13 +1125,55 @@ input{
 .form_input{
     width: 40rem;
     font-family: 'Oswald', sans-serif;
-    font-size: 1.5rem;
+    font-size: 2rem;
     letter-spacing: 1px;
     color:#8f2b04;
     background-color: transparent;
     border: none;
     border-bottom: 2px solid #fff;
     margin-bottom: 4rem;
+    outline: none;
+    padding: 10px 0;
+    transition:border-bottom-color .8s;
+
+}
+.form_input:focus{
+    border-bottom-color:#ce5713 ;
+}
+
+.booking_form p{
+    font-family: 'Oswald', sans-serif;
+    font-size: 2rem;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin-bottom: 0.5rem;
+    color: antiquewhite;
+}
+
+.booking_form label{
+    color: antiquewhite;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 300;
+    letter-spacing: 1px;    
+    display:inline;
+   
+}
+
+.booking_form input[type="checkbox"]{
+width: 2rem;
+height: 1.5rem;
+background-color: antiquewhite;
+outline:none;
+border-radius: 2rem;
+margin: 0 8px;
+box-shadow: insert 0 0 10px rgba(0, 0, 0, 0.4);
+
+}
 
 
+.booking_form button{
+
+    display: block;
+    margin-top: 5rem;
 }
