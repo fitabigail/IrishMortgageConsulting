@@ -62,25 +62,41 @@
             </div>
         </section>
 
+        <div class="heading-calc">
+            <h2>Mortgage Calculator</h2>
+            <div class="heading_calc_line"></div>
+        </div>
+        <!--Mortgage calculator-->
+
         <section class="mortgage_calc">
+
             <div class="top">
-                <h2 class="heading-calc">Mortgage Calculator</h2>
-                <form action="#">
 
-                    <div class="group">
-                        <div class="title">Mortgage Amount</div>
-                        <input type="text" value="100000" class="mortgage_amount" />
-                    </div>
+                <form action="#" class="mortgage-form">
 
-                    <div class="group">
-                        <div class="title">Years</div>
-                        <input type="text" value="10" class="years" />
-                    </div>
+                    
+                        <div class="group">
 
-                    <div class="group">
-                        <div class="title">Interest Rate</div>
-                        <input type="text" value="3.5" class="interest_rate" />
-                    </div>
+                            <label for="mortgage_amount" class="title">Mortgage Amount</label>
+                            <input type="number" id="mortgage_amount" name="mortgage_amount" class="mortgage_amount" min="50000" placeholder="Min 50000"
+                                class="mortgage_amount" required />
+                            <p class="mortgage-form--help">Min 50000</p>
+                        </div>
+
+                        <div class="group">
+                            <label for="length-of-loan-input" class="title">Lengh of mortgage</label>
+                            <input type="number" id="length-of-loan-input" min="5" max="30" class="years" placeholder="Min 1 year, max 30 years" required />
+                            <p class="mortgage-form--help">Min 1 year, max 30 years</p>
+                        </div>
+
+                        <div class="group">
+                            <label for="interest-rate-input" class="title">Interest Rate</label>
+                            <input type="number" class="interest_rate" id="interest-rate-input" min="1" placeholder="3.5" required/>
+                            <p class="mortgage-form--help">Suggested Mortgage rate 3.5%</p>
+                        </div>
+
+                   
+                   
                 </form>
 
             </div>
@@ -89,7 +105,7 @@
         <section class="results">
             <div class="left_side">
                 <div class="year_interest">
-                    <h3>Year Interest to pay</h3>
+                    <h3>Year interest to pay</h3>
                     <div class="value">123</div>
                 </div>
                 <div class="total_interest">
@@ -102,7 +118,8 @@
                 </div>
 
                 <button type="button" class="calc_btn">Calculate</button>
-                <button type="reset" class="reset_btn">Reset</button>
+                <button type="reset" id="reset-btn" class="reset_btn">Reset</button>
+
             </div>
 
             <div class="right">
@@ -118,7 +135,7 @@
     </div>
 
 
-    
+
 
     <footer class="footer">
 
