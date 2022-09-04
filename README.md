@@ -80,6 +80,8 @@ We continually tweak and adjust this template to help give you the best experien
  + Team Image3 : https://www.pexels.com/photo/man-in-white-dress-shirt-holding-suit-jacket-1043474/
  + Mortgage Calculator banner: https://www.pexels.com/photo/crop-faceless-person-using-laptop-in-darkness-5926378/
  
+ https://alvarotrigo.com/blog/css-checkbox-styles/ - checkbox code copied
+ 
 ## FAQ about the uptime script
 
 **Why have you added this script?**
