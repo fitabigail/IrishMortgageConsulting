@@ -22,7 +22,7 @@
         </div>
         <div class="nav_links">
             <a href="index.html" class="nav_link">Home</a>
-            <a href="mortgage-calculator.html" class="nav_link">Mortgage Calculator</a>
+            <a href="mortgage-calculator.html" class="nav_link">Calculator</a>
             <a href="#" class="nav_link">Contact Us</a>
 
         </div>
@@ -67,6 +67,7 @@
             <div class="heading_calc_line"></div>
         </div>
         <!--Mortgage calculator-->
+
         <div class="mortgage_calc_wp">
             <section class="mortgage_calc">
 
@@ -142,6 +143,7 @@
     <div class="booking-wp">
 
         <div class="booking">
+
             <h1 class="booking_banner">Book a Meeting</h1>
             <div class="booking_arrow">
                 <i class="fas fa-arrow-down"></i>
@@ -150,18 +152,23 @@
 
         </div>
         <div class="form_wp">
-            <form action="" class="booking_form">
+            <form action="/action_page.php" onsubmit="myBooking()"  class="booking_form">
                 <input type="text" class="form_input" placeholder="FULL NAME">
                 <input type="email" class="form_input" placeholder="EMAIL ADDRESS">
                 <P>Get News?</P><br>
-                <label>No</label>
-                <input type="checkbox">
-                <label>Yes</label>
-                <button type="button">Book Here</button>
+                <span>No</span>
 
+                <label class="toggler-wrapper style-1">
+                    <input type="checkbox" >
+                    <div class="toggler-slider">
+                      <div class="toggler-knob"></div>
+                    </div>
+                </label>
+                <span>Yes</span>                
+                <button type="submit" class="btn-form-sub">Book Here</button>
             </form>
             <div class="header">
-                <h1>Welcome to IrishMortgagesConsulting</h1>
+                <h1>Welcome to <span>I</span>rish<span>M</span>ortgages<span>C</span>onsulting</h1>
             </div>
 
             <div class="close_btn">&#10005;</div>
@@ -199,7 +206,8 @@
     </footer>
 
 
-    <script src="assets/js/script.js"></script>
+    <script src="assets/js/javascript2.js"></script>
+
     <script src="https://code.jquery.com/jquery-3.6.1.js"
         integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
     <script src="tilt.js"></script>
