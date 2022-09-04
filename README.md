@@ -79,6 +79,7 @@ We continually tweak and adjust this template to help give you the best experien
  + Team Image2 : https://www.pexels.com/photo/a-woman-in-black-blazer-sitting-on-white-chair-8074612/
  + Team Image3 : https://www.pexels.com/photo/man-in-white-dress-shirt-holding-suit-jacket-1043474/
  + Mortgage Calculator banner: https://www.pexels.com/photo/crop-faceless-person-using-laptop-in-darkness-5926378/
+ + Booking form : https://www.pexels.com/photo/people-on-a-video-call-4226122/
  
  https://alvarotrigo.com/blog/css-checkbox-styles/ - checkbox code copied
  
