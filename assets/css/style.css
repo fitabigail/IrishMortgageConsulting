@@ -1426,6 +1426,38 @@ input {
     .mortgage-paragraph {
         width: 60rem;
     }
+    .booking-wp{
+        height: 80vh;
+    }
+   .booking_banner{
+    margin-bottom: 1rem;
+   }
+    .form_wp{
+        width: 80rem;
+        height: 60rem;
+    }
+    .booking_form{
+        padding: 3rem;
+       
+
+    }
+    .booking_form p{
+        padding-top: 3rem;
+        font-size: 2.5rem;
+    }
+    .booking_form label{
+        font-size: 2rem;
+    }
+    .header h1{
+        font-size: 3rem;
+    }
+    .form_input{
+        width:20rem;
+        font-size: 1rem;
+        margin-bottom: 1rem;
+        padding: 7px 0;
+
+    }
 }
 
 @media(max-width:350px) {
