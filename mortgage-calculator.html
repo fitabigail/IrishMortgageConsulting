@@ -77,21 +77,22 @@
 
                         <div class="group">
                             <label class="title" id="title">Mortgage Amount</label>
-                            <input type="number" class="mortgage_amount" value="60000" id="title" min="5000" required/>
+                            <input type="number" class="mortgage_amount" value="60000" id="title" min="5000" required />
 
                             <p class="mortgage-form--help">Min 50000</p>
                         </div>
 
                         <div class="group">
                             <label class="title" id="title">Lengh of mortgage</label>
-                            <input type="number" class="mortgage_years" value="10" id="title" min="5" max="30" required />
+                            <input type="number" class="mortgage_years" value="10" id="title" min="5" max="30"
+                                required />
 
                             <p class="mortgage-form--help">Min 1 year, max 30 years</p>
                         </div>
 
                         <div class="group">
                             <label class="title" id="title">Interest Rate</label>
-                            <input type="number" class="interest_rate" value="3.5" id="title" required/>
+                            <input type="number" class="interest_rate" value="3.5" id="title" required />
 
                             <p class="mortgage-form--help">Suggested Mortgage rate 3.5%</p>
                         </div>
@@ -106,7 +107,7 @@
 
             <div class="left_side">
                 <button type="button" class="calc_btn">Calculate</button>
-                
+
 
                 <div class="mortgage_emi">
 
@@ -131,7 +132,7 @@
             </div>
 
             <div class="right">
-                Chart
+                <canvas id="myChart" width="400" height="400"></canvas>
             </div>
 
 
@@ -152,19 +153,19 @@
 
         </div>
         <div class="form_wp">
-            <form action="/action_page.php" onsubmit="myBooking()"  class="booking_form">
+            <form action="/action_page.php" onsubmit="myBooking()" class="booking_form">
                 <input type="text" class="form_input" placeholder="FULL NAME">
                 <input type="email" class="form_input" placeholder="EMAIL ADDRESS">
                 <P>Get News?</P><br>
                 <span>No</span>
 
                 <label class="toggler-wrapper style-1">
-                    <input type="checkbox" >
+                    <input type="checkbox">
                     <div class="toggler-slider">
-                      <div class="toggler-knob"></div>
+                        <div class="toggler-knob"></div>
                     </div>
                 </label>
-                <span>Yes</span>                
+                <span>Yes</span>
                 <button type="submit" class="btn-form-sub">Book Here</button>
             </form>
             <div class="header">
@@ -204,7 +205,7 @@
 
 
     </footer>
-
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.9.1/dist/chart.min.js"></script>
 
     <script src="assets/js/javasript2.js"></script>
 

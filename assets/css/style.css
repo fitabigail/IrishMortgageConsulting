@@ -932,7 +932,7 @@ html {
     width: 100%;
     height: 25vh;
     margin-bottom: 2rem;
-    background-color: rgb(131, 67, 7);
+    background-color: #b3420e;
     color: antiquewhite;
     padding: 2rem;
     margin-bottom: 5rem;
@@ -966,7 +966,7 @@ input {
     font-size: 3rem;
     color: #000;
     font-weight: bold;
-    text-align: center;
+   
 }
 
 .mortgage_calc .mortgage-form--help {
@@ -980,14 +980,14 @@ input {
 
 .results {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     margin-top: 5rem;
     box-shadow: 0.5rem 0.5rem 0.5em rgba(0, 0, 0, 0.6);
 }
 
 .results .left_side {
-    width: 100%;
+    width: 50%;
     padding: 0.5rem 1rem;
 }
 
@@ -1044,21 +1044,10 @@ input {
     transform: translateY(4px);
 }
 
-.results .reset_btn {
-    background-color: rgb(131, 67, 7);
-    color: antiquewhite;
-    border: none;
-    padding: 0.5rem 2rem;
-    border-radius: 0.5rem;
-    font-size: 2rem;
-    font-weight: 800;
-    cursor: pointer;
-    margin: 3rem 5rem;
-    width: 15rem;
-    height: 5rem;
-
+.results.right{
+    width: 50%;
+   margin: auto;
 }
-
 
 /* Booking meeting form section */
 
