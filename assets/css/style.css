@@ -963,7 +963,10 @@ input,
 input {
     width: 20rem;
     height: 5rem;
-    font-size: 2.5rem;
+    font-size: 3rem;
+    color: #000;
+    font-weight: bold;
+    text-align: center;
 }
 
 .mortgage_calc .mortgage-form--help {
@@ -1054,10 +1057,6 @@ input {
     width: 15rem;
     height: 5rem;
 
-}
-
-.reset_btn {
-    display: none;
 }
 
 

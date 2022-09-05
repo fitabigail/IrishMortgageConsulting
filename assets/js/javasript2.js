@@ -22,50 +22,54 @@ const mortgageEMIValue = document.querySelector(".mortgage_emi .value");
 const totalInterestValue = document.querySelector(".total_interest .value");
 const totalAmountValue = document.querySelector(".total_amount .value");
 
-const calculateBtn = document.querySelector(".calc_btn");
-const resetBtn = document.querySelector("reset-btn");
 
-let mortgageAmount = parseFloat(mortgageAmountInput.value);
-let mortgageYears = parseFloat(mortgageYearsInput.value);
-let interestRate = parseFloat(interestRateInput.value);
+
+const calculateBtn = document.querySelector(".calc_btn");
+
+
+let mortgageAmount = mortgageAmountInput.value;
+let mortgageYears = mortgageYearsInput.value * 12;
+let interestRate = interestRateInput.value;
 
 
 let interest = interestRate / 12 / 100;
 
 const calculateEMI = () => {
-   let emi = mortgageAmount * interest * (Math.pow(1 + interest, mortgageYears) / (Math.pow(1 + interest, mortgageYears) - 1));
-   return(emi);
+
+    let emi = mortgageAmount * interest * (Math.pow(1 + interest, mortgageYears) / (Math.pow(1 + interest, mortgageYears) - 1));
+    return(emi);
 };
 
 
 const updateData = (emi) =>{
-   mortgageEMIValue.innerHTML = Math.round(emi);
+    mortgageEMIValue.innerHTML = Math.round(emi);
 
-   let totalAmount = Math.round(mortgageYears * emi); 
-   totalAmountValue.innerHTML = totalAmount;
+    let totalAmount = Math.round(mortgageYears * emi); 
+    totalAmountValue.innerHTML = totalAmount;
 
-   let totalInterestPayable = Math.round(totalAmount - mortgageAmount);
-   totalInterestValue.innerHTML = totalInterestPayable;
+    let totalInterestPayable = Math.round(totalAmount - mortgageAmount);
+    totalInterestValue.innerHTML = totalInterestPayable;
 }
 
 const refreshInputValues = () =>{
-   mortgageAmount = parseFloat(mortgageAmountInput.value);
-   mortgageYears = parseFloat(mortgageYearsInput.value);
-   interestRate = parseFloat(interestRateInput.value);
+    mortgageAmount = mortgageAmountInput.value;
+    mortgageYears = mortgageYearsInput.value * 12;
+    interestRate = interestRateInput.value;
 
 
-   interest = interestRate / 12 / 100;
+    interest = interestRate / 12 / 100;
 };
 
 const init = () => {
-   refreshInputValues();
-  let emi = calculateEMI();
-  updateData(emi);
+    refreshInputValues();
+   let emi = calculateEMI();
+   updateData(emi);
 };
 
 init();
 
 calculateBtn.addEventListener("click", init);
+
 
 
 
