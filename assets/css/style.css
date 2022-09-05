@@ -1371,6 +1371,12 @@ input {
     html {
         font-size: 37%
     }
+    .close_btn {        
+        bottom: -8%;
+        right: 3%;
+        font-size: 15px;
+       
+    }
 }
 
 @media (max-width:750px) {
@@ -1390,6 +1396,12 @@ input {
     html {
         font-size: 37%
     }
+    .close_btn {        
+        bottom: -8%;
+        right: 3%;
+        font-size: 15px;
+       
+    }
 }
 
 
@@ -1401,7 +1413,7 @@ input {
     }
 
     .booking_banner {
-        height: 50vh;
+        height: 12vh;
     }
 
     .hero-heading {
@@ -1435,6 +1447,12 @@ input {
     html {
         font-size: 35%
     }
+    .close_btn {        
+        bottom: -10%;
+        right: 3%;
+        font-size: 15px;
+       
+    }
 }
 
 @media (max-width:650px){
@@ -1443,7 +1461,7 @@ input {
     }
 
     .booking_banner {
-        height: 50vh;
+        height: 13vh;
     }
 
     .hero-heading {
@@ -1459,6 +1477,12 @@ input {
     html {
         font-size: 35%
     }
+    .close_btn {        
+        bottom: -10%;
+        right: 3%;
+        font-size: 15px;
+       
+    }
 }
 @media (max-width:600px){
     .hero-heading span {
@@ -1466,7 +1490,7 @@ input {
     }
 
     .booking_banner {
-        height: 50vh;
+        height: 10vh;
     }
 
     .hero-heading {
@@ -1482,6 +1506,13 @@ input {
     html {
         font-size: 30%
     }
+
+    .close_btn {        
+        bottom: -10%;
+        right: 3%;
+        font-size: 15px;
+       
+    }
 }
 
 @media (max-width:550px) {
@@ -1491,7 +1522,7 @@ input {
     }
 
     .booking_banner {
-        height: 50vh;
+        height: 12vh;
     }
 
     .hero-heading {
@@ -1534,6 +1565,14 @@ input {
         padding: 7px 0;
 
     }
+    .close_btn {
+        
+        bottom: -10%;
+        right: 3%;
+        font-size: 15px;
+       
+    }
+
     
 }
 
@@ -1544,7 +1583,7 @@ input {
     }
 
     .booking_banner {
-        height: 60vh;
+        height: 10vh;
     }
 
 
@@ -1593,6 +1632,15 @@ input {
     html {
         font-size: 22%;
     }
+    .close_btn {
+        
+        bottom: -10%;
+        right: 3%;
+        font-size: 15px;
+       
+    }
+
+
 }
 
 @media(max-width:320px) {
@@ -1611,5 +1659,12 @@ input {
 
     .mortgage-paragraph {
         width: 40rem;
+    }
+
+    .close_btn {        
+        bottom: -10%;
+        right: 5%;
+        font-size: 15px;
+        
     }
 }
