@@ -566,23 +566,8 @@ html {
     color: rgb(37, 36, 34);
     width: 80%;
     margin-bottom: 2rem;
-    /*text-shadow: 0.1rem 0.2rem rgba(0, 0, 0, 0.6);*/
 }
-
-/*
- .card_info button{
-    height: 3rem;
-    width: 10rem;
-    background-color: #ce5713;
-    border: none;
-    font-family: 'Oswald', sans-serif;
-    font-size: 1.5rem;
-    line-height: 1.5rem;
-    color: antiquewhite;
-    border-radius: 1rem;
-    box-shadow:0.2rem 0.5rem rgba(0, 0, 0, 0.6);  ;
-
- }*/
+    
 
 /* Footer style */
 
@@ -595,7 +580,7 @@ html {
     align-items: center;
     padding: 10rem;
     color: antiquewhite;
-    margin-top: 15rem;
+    
 
 }
 
@@ -1668,3 +1653,149 @@ input {
         
     }
 }
+
+/* CONTACT US PAGE style */
+
+ .contact_us{
+    width: 100%;
+    height: 100vh;
+    background-color: #666;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.wrapper-contact_us {
+    width: 60%;
+    height: 75rem;
+    display: flex;  
+    margin-top: 10rem;  
+    box-shadow: 0 3rem 7rem rgba(0, 0, 0, 0.5);
+
+}
+
+.contact_us_left{
+    width: 35%;
+    background: url(../images/contact_us.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.contact_us_right{
+    width: 65%;
+    background-color:antiquewhite;
+    padding: 3rem 10rem;
+
+}
+
+.contact_us_heading{
+    font-family: 'Oswald', sans-serif;
+    font-size: 6rem;
+    font-weight: 300;
+    color: #000;
+    margin-bottom: 5rem;
+    text-align: center;
+
+}
+.contact_us_right form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+.group_contact{
+    position: relative;
+}
+.field{
+    width:45rem;
+    background-color: transparent;
+    border: none;
+    border-bottom: 0.2rem dashed #666;
+    margin: 3rem 1rem 1rem 0;
+    padding: 1rem 1rem 1rem 0;
+    font-family: 'Oswald',sans-serif;
+    font-size: 1.6rem;
+    color: #000;
+    
+}
+
+.field:focus{
+    border-bottom-style: solid;
+}
+
+.group_contact input{
+    height: 4rem;
+}
+
+.group_contact textarea{
+    max-height: 7rem;
+    max-width: 45rem;
+}
+
+.group_contact label{
+    position: absolute;
+    left: 0;
+    font-family: 'Oswald ', sans-serif;
+    font-size: 1.8rem;
+    color: #666;
+    text-transform: uppercase;
+    pointer-events: none;
+    transition: all .3s;
+
+}
+.contact-label{
+    bottom: 3rem;
+    }
+
+ .message{
+    bottom:10rem;
+ }
+ 
+ .field:focus ~ label{
+    transform: translateY(-3m);
+    font-size: 1.2rem;
+ }
+
+ .submit_btn_contact{
+    width:45rem;
+    height: 5rem;
+    background-color:#b3420e ;
+    color: #fff;
+    border: none;
+    margin-top: 2rem;
+    font-family: 'Oswals', sans-serif;
+    font-size: 2rem;
+    font-weight: 300;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    cursor: pointer;
+    text-shadow: 0.1rem 0.3rem rgba(0, 0, 0, 0.5);
+    box-shadow: 0.1rem 0.3rem rgba(0, 0, 0, 0.3);
+
+ }
+
+ .scroll_btn{
+    position: fixed;
+    right:5rem;
+    bottom: 5rem;
+    width: 4.5rem;
+    height: 4rem;
+    background-color: #b3420e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: antiquewhite;
+    box-shadow: 0 0.1rem 0.6rem rgba(0, 0, 0, 0.3);
+    border-radius: 1rem;
+ }
+
+ /*media query contact */
+
+ @media(max-width: 750px){
+    .submit_btn_contact{
+        width: 40rem;
+    }
+ }

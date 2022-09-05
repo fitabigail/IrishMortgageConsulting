@@ -12,9 +12,9 @@
  
      // Section About - Video
  
-     const video = document.querySelector('.video')
-     const btn = document.querySelector('.buttons i')
-     const bar = document.querySelector('.video_bar')
+     const video = document.querySelector('.video');
+     const btn = document.querySelector('.buttons i');
+     const bar = document.querySelector('.video_bar');
  
      const playPause =()=>{
          if(video.paused)    
@@ -29,11 +29,11 @@
              video.style.opacity='.6'
          }
         
-     }
+     };
  
      btn.addEventListener('click', ()=> {
          playPause();
-     }) 
+     }); 
  
      //video bar 
  
@@ -46,4 +46,36 @@
         }
  
  
-     })
+     });
+
+//Scroll Button
+
+document.querySelector('.scroll_btn').addEventListener(
+    'click', () =>{
+        document.querySelector('html').style.scrollBehavior = 'smooth';
+        setTimeout(() =>{
+            document.querySelector('html').style.scrollBehavior = 'unset';
+        }), 1000;
+    }
+);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
