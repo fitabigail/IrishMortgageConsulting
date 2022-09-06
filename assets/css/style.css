@@ -811,7 +811,7 @@ html {
 .section_banner {
     width: 100%;
     height: 70vh;
-    background: url(../images/calculator-banner.jpg) no-repeat center;
+    background: url(../images/calculator-banner3.webp) no-repeat center;
     background-color: cover;
 
 }
@@ -857,7 +857,7 @@ html {
     width: 100rem;
     position: absolute;
     left: 40%;
-    color: rgb(49, 47, 44);
+    color: rgb(12, 12, 11);
     font-size: 2rem;
     border-top: 0.2rem solid rgb(49, 47, 44);
     border-bottom: 0.2rem solid rgb(49, 47, 44);
@@ -868,7 +868,7 @@ html {
     justify-content: center;
     align-items: center;
     text-align: justify;
-    text-shadow: 0.5rem 0.5rem 0.5em rgba(0, 0, 0, 0.6);
+    text-shadow: 0 0  0.1em rgba(0, 0, 0, 0.6);
     line-height: 2;
 
 }
@@ -1079,7 +1079,7 @@ input {
     font-weight: 800;
     cursor: pointer;
     margin-top: 3rem;
-    margin-left: 5rem;
+    margin-left: 2rem;
     margin-bottom: 10rem;
     width: 25rem;
     height: 10rem;
@@ -1258,7 +1258,7 @@ input {
 
 .header {
     width: 50%;
-    background: url(../images/form_booking.jpg) no-repeat center;
+    background: url(../images/form_booking3.png) no-repeat center;
     background-size: cover;
     box-shadow: -10px 0 30px rgb(0, 0, 0, 0.3);
     position: relative;
