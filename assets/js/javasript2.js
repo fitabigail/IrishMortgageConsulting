@@ -15,35 +15,28 @@ menu.addEventListener('click', ()=>{
 let myChart;
 
 
-const displayChart = (totalInterestPayableValue) => {
-   const ctx = document.getElementById("myChart").getContext("2d");
-   myChart = new Chart(ctx, {
-     type: "pie",
-     data: {
-       labels: ["Total Interest", "Principal Mortgage Amount"],
-       datasets: [
-         {
-           data: [totalInterestPayableValue, mortgageAmount],
-           backgroundColor: [' #b3420e','#312f2c',],
-           borderWidth: 0,
-         },
-       ],
-     },
-   });
- };
+ const displayChart = (totalInterestPayableValue) => {
+  const ctx = document.getElementById("myChart").getContext("2d");
+  myChart = new Chart(ctx, {
+    type: "pie",
+    data: { 
+      labels: ["Total Interest", "Mortgage Amount"],
+      datasets: [
+        {
+          data: [totalInterestPayableValue, mortgageAmount],
+          backgroundColor: ['#b3420e','#312f2c'],
+          borderWidth: 0,
+        },
+      ],
+    },
+  });
+};
  
-
-
-
-
-
-
- const updateChart = (totalInterestPayableValue) => {
-   myChart.data.datasets[0].data[0] = totalInterestPayableValue;
-   myChart.data.datasets[0].data[1] = mortgageAmount;
-   myChart.update();
- };
-
+const updateChart = (totalInterestPayableValue) => {
+  myChart.data.datasets[0].data[0] = totalInterestPayableValue;
+  myChart.data.datasets[0].data[1] =  mortgageAmount;
+  myChart.update();
+};
 
 
 
@@ -88,12 +81,12 @@ const updateData = (emi) =>{
     let totalInterestPayable = Math.round(totalAmount - mortgageAmount);
     totalInterestValue.innerHTML = totalInterestPayable;
 
-    if(myChart) {
+    if (myChart) {
       updateChart(totalInterestPayable);
-    }else {
-    displayChart(totalInterestPayable);
-   };
-}
+    } else {
+      displayChart(totalInterestPayable);
+    }
+};
 
 const refreshInputValues = () =>{
     mortgageAmount = mortgageAmountInput.value;
