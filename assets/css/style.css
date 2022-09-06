@@ -427,7 +427,6 @@ html {
     border-top: 0.2rem solid antiquewhite;
     border-bottom: 0.2rem solid antiquewhite;
     padding: 1rem;
-    /* margin-top: 8rem;*/
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -443,7 +442,6 @@ html {
     align-self: flex-start;
     font-size: 3rem;
     margin-bottom: 1rem;
-
 
 }
 
@@ -567,7 +565,7 @@ html {
     width: 80%;
     margin-bottom: 2rem;
 }
-    
+
 
 /* Footer style */
 
@@ -580,14 +578,13 @@ html {
     align-items: center;
     padding: 10rem;
     color: antiquewhite;
-    
+
 
 }
 
 .footer_contact {
     font-family: 'Oswald', sans-serif;
     font-size: 1.5rem;
-    /* margin-right: 3rem;*/
     letter-spacing: 0.2rem;
     line-height: 3rem;
     padding: 3rem;
@@ -848,8 +845,8 @@ html {
     background-color: rgb(49, 47, 44);
     margin-left: 2rem;
     margin-top: 1rem;
-    margin-bottom: 4rem;    
-    box-shadow:  0 0.1rem 0.6rem rgba(0, 0, 0, 0.3);
+    margin-bottom: 4rem;
+    box-shadow: 0 0.1rem 0.6rem rgba(0, 0, 0, 0.3);
 }
 
 
@@ -868,7 +865,7 @@ html {
     justify-content: center;
     align-items: center;
     text-align: justify;
-    text-shadow: 0 0  0.1em rgba(0, 0, 0, 0.6);
+    text-shadow: 0 0 0.1em rgba(0, 0, 0, 0.6);
     line-height: 2;
 
 }
@@ -892,8 +889,7 @@ html {
     margin-left: 2rem;
     margin-top: 1rem;
     margin-bottom: 2rem;
-    margin-left: 5rem;
-    box-shadow:  0 0.1rem 0.6rem rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0.1rem 0.6rem rgba(0, 0, 0, 0.3);
 }
 
 /* Mortgage calculator form*/
@@ -938,7 +934,8 @@ html {
 
 }
 
-input,.title {
+input,
+.title {
     display: flex;
     flex-direction: column;
 
@@ -950,7 +947,7 @@ input {
     font-size: 3rem;
     color: #000;
     font-weight: bold;
-   
+
 }
 
 .mortgage_calc .mortgage-form--help {
@@ -1028,9 +1025,9 @@ input {
     transform: translateY(4px);
 }
 
-.results.right{
+.results.right {
     width: 50%;
-   margin: auto;
+    margin: auto;
 }
 
 /* Booking meeting form section */
@@ -1038,7 +1035,7 @@ input {
 
 .booking-wp {
     width: 100%;
-    height: 110vh;    
+    height: 110vh;
     overflow: hidden;
     position: relative;
     box-shadow: 0.5rem 0.5rem 0.5em rgba(0, 0, 0, 0.6);
@@ -1298,13 +1295,14 @@ input {
 
 /* MEDIA QUERY FOR MORTGAGE CALCULATOR Page */
 
-@media(max-width:1600px){
+@media(max-width:1600px) {
     .mortgage-paragraph {
-        width:90rem;
+        width: 90rem;
         font-size: 2.5rem;
-       
+
     }
-    html{
+
+    html {
         font-size: 50%;
     }
 }
@@ -1344,17 +1342,19 @@ input {
         font-size: 3rem;
     }
 
-    #myChart{
+    #myChart {
         padding: 4rem;
     }
+
     html {
         font-size: 37%
     }
-    .close_btn {        
+
+    .close_btn {
         bottom: -8%;
         right: 3%;
         font-size: 15px;
-       
+
     }
 }
 
@@ -1367,19 +1367,21 @@ input {
         height: 15rem;
 
     }
+
     .mortgage-paragraph {
-       width: 80rem;
-       font-size: 3rem;
+        width: 80rem;
+        font-size: 3rem;
     }
 
     html {
         font-size: 37%
     }
-    .close_btn {        
+
+    .close_btn {
         bottom: -8%;
         right: 3%;
         font-size: 15px;
-       
+
     }
 }
 
@@ -1404,6 +1406,7 @@ input {
         width: 80rem;
         font-size: 3rem;
     }
+
     .mortgage_calc {
 
         height: 60vh;
@@ -1426,15 +1429,16 @@ input {
     html {
         font-size: 35%
     }
-    .close_btn {        
+
+    .close_btn {
         bottom: -10%;
         right: 3%;
         font-size: 15px;
-       
+
     }
 }
 
-@media (max-width:650px){
+@media (max-width:650px) {
     .hero-heading span {
         font-size: 5rem;
     }
@@ -1456,14 +1460,16 @@ input {
     html {
         font-size: 35%
     }
-    .close_btn {        
+
+    .close_btn {
         bottom: -10%;
         right: 3%;
         font-size: 15px;
-       
+
     }
 }
-@media (max-width:600px){
+
+@media (max-width:600px) {
     .hero-heading span {
         font-size: 5rem;
     }
@@ -1486,16 +1492,16 @@ input {
         font-size: 30%
     }
 
-    .close_btn {        
+    .close_btn {
         bottom: -10%;
         right: 3%;
         font-size: 15px;
-       
+
     }
 }
 
 @media (max-width:550px) {
-    
+
     .hero-heading span {
         font-size: 5rem;
     }
@@ -1513,50 +1519,59 @@ input {
         width: 60rem;
         font-size: 3rem;
     }
-    .booking-wp{
+
+    .booking-wp {
         height: 80vh;
     }
-   .booking_banner{
-    margin-bottom: 1rem;
-   }
-    .form_wp{
+
+    .booking_banner {
+        margin-bottom: 1rem;
+    }
+
+    .form_wp {
         width: 80rem;
         height: 60rem;
     }
-    .booking_form{
-        padding: 3rem;       
+
+    .booking_form {
+        padding: 3rem;
 
     }
-    .booking_form p{
+
+    .booking_form p {
         padding-top: 3rem;
         font-size: 2.5rem;
     }
-    .booking_form label{
+
+    .booking_form label {
         font-size: 2rem;
     }
-    .header h1{
+
+    .header h1 {
         font-size: 3rem;
     }
-    .form_input{
-        width:20rem;
+
+    .form_input {
+        width: 20rem;
         font-size: 1rem;
         margin-bottom: 1rem;
         padding: 7px 0;
 
     }
+
     .close_btn {
-        
+
         bottom: -10%;
         right: 3%;
         font-size: 15px;
-       
+
     }
 
-    
+
 }
 
 @media(max-width:450px) {
-    
+
     .hero-heading span {
         font-size: 5rem;
     }
@@ -1575,48 +1590,55 @@ input {
         width: 50rem;
         font-size: 3rem;
     }
-#myChart{
-    height: 250px;
-    width: 250px;
-}
-  .form_wp{
-    height: auto;
-  }
-.toggler-wrapper{
-    width: 22px;
-    height: 12px;
-}
-.toggler-wrapper.style-1 input[type="checkbox"]:checked+.toggler-slider .toggler-knob {
-    left: calc(100% - 9px - 1.5px);
-}
 
-.toggler-wrapper.style-1 .toggler-knob {
-    width: calc(12px - 3px);
-    height: calc(12px - 3px);    
-    left: 1.5px;
-    top: 1.5px;
-    
-}
-.booking_form button{
+    #myChart {
+        height: 250px;
+        width: 250px;
+    }
 
-    width: 25rem;
-    font-size: 10px;
+    .form_wp {
+        height: auto;
+    }
 
-}
+    .toggler-wrapper {
+        width: 22px;
+        height: 12px;
+    }
 
-#myChart{
-    height: 250px;
-    width: 250px;
-}
+    .toggler-wrapper.style-1 input[type="checkbox"]:checked+.toggler-slider .toggler-knob {
+        left: calc(100% - 9px - 1.5px);
+    }
+
+    .toggler-wrapper.style-1 .toggler-knob {
+        width: calc(12px - 3px);
+        height: calc(12px - 3px);
+        left: 1.5px;
+        top: 1.5px;
+
+    }
+
+    .booking_form button {
+
+        width: 25rem;
+        font-size: 10px;
+
+    }
+
+    #myChart {
+        height: 250px;
+        width: 250px;
+    }
+
     html {
         font-size: 22%;
     }
+
     .close_btn {
-        
+
         bottom: -10%;
         right: 3%;
         font-size: 15px;
-       
+
     }
 
 
@@ -1640,139 +1662,163 @@ input {
         width: 40rem;
     }
 
-    .close_btn {        
+    .close_btn {
         bottom: -10%;
         right: 5%;
         font-size: 15px;
-        
+
     }
 }
 
 /* CONTACT US PAGE style */
 
- .contact_us{
+.contact_us {
     width: 100%;
     height: 100vh;
     background-color: #666;
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
+
 .wrapper-contact_us {
     width: 60%;
     height: 75rem;
-    display: flex;  
-    margin-top: 10rem;  
+    display: flex;
+    margin-top: 10rem;
     box-shadow: 0 3rem 7rem rgba(0, 0, 0, 0.5);
 
 }
 
-.contact_us_left{
+.contact_us_left {
     width: 35%;
     background: url(../images/contact_us.jpg) no-repeat center;
     background-size: cover;
 }
 
-.contact_us_right{
+.flip-contact {
+    background-color: transparent;
     width: 65%;
-    background-color:antiquewhite;
-    padding: 3rem 10rem;
-
+    height: auto;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px;
 }
 
-.contact_us_heading{
-    font-family: 'Oswald', sans-serif;
-    font-size: 6rem;
-    font-weight: 300;
-    color: #000;
-    margin-bottom: 5rem;
-    text-align: center;
 
-}
-.contact_us_right form{
+.flip-contact-inner {
+    position: relative;
     width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+    cursor: pointer;
+
+}
+
+
+.flip-contact:hover .flip-contact-inner {
+    transform: rotateY(180deg);
+}
+
+
+.flip-contact-front,
+.flip-contact-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    font-size: 2rem;
+    letter-spacing: 1px;
+    line-height: 5rem;
+    font-weight: 400;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+
+}
+
+/* style front size*/
+
+.flip-contact-front {
+    background-color: rgb(233, 227, 227);
+    color: black;    
+    padding: 3rem 10rem;
+    font-family: 'Oswaldo', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+
+}
+
+.flip-contactfront h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 3.5rem;
+    margin: 2rem auto;
+}
+
+.flip-contact-front div {
+    margin-top: 3rem;
+    align-items: flex-start;
+}
+
+/* Style the back side */
+
+.flip-contact-back {
+    background-color: #b3420e;
+    color: white;
+    transform: rotateY(180deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flip-contact-back .form-contact {
+    background: transparent;
     display: flex;
     flex-direction: column;
     align-items: center;
-
-
-}
-.group_contact{
-    position: relative;
-}
-.field{
-    width:45rem;
-    background-color: transparent;
-    border: none;
-    border-bottom: 0.2rem dashed #666;
-    margin: 3rem 1rem 1rem 0;
-    padding: 1rem 1rem 1rem 0;
-    font-family: 'Oswald',sans-serif;
-    font-size: 1.6rem;
-    color: #000;
-    
+    padding: 2rem;
 }
 
-.field:focus{
-    border-bottom-style: solid;
+.form-contact h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 3.5rem;
+    font-weight: 400;
+    margin: 2rem auto;
 }
 
-.group_contact input{
-    height: 4rem;
-}
-
-.group_contact textarea{
-    max-height: 7rem;
-    max-width: 45rem;
-}
-
-.group_contact label{
-    position: absolute;
-    left: 0;
-    font-family: 'Oswald ', sans-serif;
-    font-size: 1.8rem;
-    color: #666;
-    text-transform: uppercase;
-    pointer-events: none;
-    transition: all 2s;
-
-}
-.contact-label{
-    bottom: 3rem;
-    }
-
- .message{
-    bottom:10rem;
- }
- 
- .field:focus ~ label{
-    transform: translateY(-5rem);
-    font-size: 1.2rem;
- }
-
- .submit_btn_contact{
-    width:45rem;
-    height: 5rem;
-    background-color:#b3420e ;
-    color: #fff;
-    border: none;
-    margin-top: 2rem;
-    font-family: 'Oswals', sans-serif;
+.form-contact input,
+.form-contact textarea {
+    border: 0;
+    margin: 2rem 0;
+    padding: 1rem;
+    width: 30rem;
+    background: #f1f1f1;
     font-size: 2rem;
-    font-weight: 300;
-    text-align: center;
-    text-transform: uppercase;
-    letter-spacing: 0.2rem;
+    border-radius: 5px;
+
+}
+
+.form-contact button {
+    display: block;
+    margin-top: 5rem;
+    width: 20rem;
+    padding: 8px 5px;
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    outline: none;
+    font-size: 15px;
+    letter-spacing: 1px;
     cursor: pointer;
-    text-shadow: 0.1rem 0.3rem rgba(0, 0, 0, 0.5);
-    box-shadow: 0.1rem 0.3rem rgba(0, 0, 0, 0.3);
 
- }
+}
 
- .scroll_btn{
+.scroll_btn {
     position: fixed;
-    right:5rem;
+    right: 5rem;
     bottom: 5rem;
     width: 4.5rem;
     height: 4rem;
@@ -1784,12 +1830,12 @@ input {
     color: antiquewhite;
     box-shadow: 0 0.1rem 0.6rem rgba(0, 0, 0, 0.3);
     border-radius: 1rem;
- }
+}
 
- /*media query contact */
+/*media query contact */
 
- @media(max-width: 750px){
-    .submit_btn_contact{
+@media(max-width: 750px) {
+    .submit_btn_contact {
         width: 40rem;
     }
- }
+}
