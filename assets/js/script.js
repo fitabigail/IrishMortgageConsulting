@@ -56,7 +56,7 @@
         Email.send({
             Host : "smtp.yahoo.com",
             Username : "abi_dinu@yahoo.com",
-            Password : "BunditA76",
+            Password : "",
             To : 'abidinu35@gmail.com',
             From : document.getElementById('email').value,
             Subject : "New Contact Form Enquiry",
