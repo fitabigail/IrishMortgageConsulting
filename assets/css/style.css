@@ -1736,7 +1736,7 @@ input {
 
 }
 
-/* style front size*/
+/* style front side*/
 
 .flip-contact-front {
     background-color: rgb(233, 227, 227);
@@ -1834,8 +1834,53 @@ input {
 
 /*media query contact */
 
-@media(max-width: 750px) {
-    .submit_btn_contact {
-        width: 40rem;
+@media(max-width: 600px) {
+    .form-contact button {
+        width: 15rem;
+        padding: 4px 2.5px;
+        font-size: 2.5rem;
     }
 }
+    @media(max-width: 550px) {
+        .form-contact button {
+            width: 15rem;
+            padding: 4px 2.5px;
+            font-size: 2.5rem;
+        }  
+        .flip-contact-front .email{
+            padding-right: 5rem;
+        } 
+}
+@media(max-width: 500px) {
+    .form-contact button {
+        width: 15rem;
+        padding: 4px 2.5px;
+        font-size: 2.5rem;
+    }  
+    .flip-contact-front .email{
+        padding-right: 5rem;
+    } 
+}
+@media(max-width: 500px) {
+    .form-contact button {
+        width: 15rem;
+        padding: 4px 2.5px;
+        font-size: 2.5rem;
+    }  
+    .flip-contact-front .email{
+        padding-right: 5rem;
+    } 
+
+}
+@media(max-width: 450px) {
+    .form-contact button {
+        width: 15rem;
+        padding: 4px 2.5px;
+        font-size: 2.5rem;
+    }     
+    
+    .flip-contact-front .email{
+        padding-right: 5rem;
+    } 
+}
+
