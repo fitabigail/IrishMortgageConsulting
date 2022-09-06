@@ -8,7 +8,7 @@ menu.addEventListener('click', ()=>{
     navbar.classList.toggle('change');
     menu.classList.toggle('change');
 
-})
+});
 
 // Chart mortgage loan
 
@@ -93,7 +93,7 @@ const updateData = (emi) =>{
     }else {
     displayChart(totalInterestPayable);
    };
-};
+}
 
 const refreshInputValues = () =>{
     mortgageAmount = mortgageAmountInput.value;
@@ -138,7 +138,7 @@ document.querySelector('.close_btn').addEventListener('click', () =>{
 function myBooking() {
    alert("Thank you for your booking request. Soon one of our team will be in touch with you.");
    window.location.href='https://8000-fitabigail-irishmortgag-tkpn56x4ty1.ws-eu63.gitpod.io/mortgage-calculator.html?';
-};
+}
 
 
 

@@ -812,7 +812,7 @@ html {
     width: 100%;
     height: 70vh;
     background: url(../images/calculator-banner.jpg) no-repeat center;
-    background: cover;
+    background-color: cover;
 
 }
 
@@ -848,8 +848,8 @@ html {
     background-color: rgb(49, 47, 44);
     margin-left: 2rem;
     margin-top: 1rem;
-    margin-bottom: 4rem;
-    box-shadow: #000;
+    margin-bottom: 4rem;    
+    box-shadow:  0 0.1rem 0.6rem rgba(0, 0, 0, 0.3);
 }
 
 
@@ -893,7 +893,7 @@ html {
     margin-top: 1rem;
     margin-bottom: 2rem;
     margin-left: 5rem;
-    box-shadow: #000;
+    box-shadow:  0 0.1rem 0.6rem rgba(0, 0, 0, 0.3);
 }
 
 /* Mortgage calculator form*/
@@ -1308,13 +1308,7 @@ input {
         font-size: 50%;
     }
 }
-/*
-@media (max-width:980px) {
-    .mortgage-paragraph {
-        width: 80rem;
-        font-size: 2.5rem;
-    }
-}*/
+
 @media (max-width:980px) {
     .hero-heading span {
         font-size: 8rem;
@@ -1741,7 +1735,7 @@ input {
     color: #666;
     text-transform: uppercase;
     pointer-events: none;
-    transition: all .3s;
+    transition: all 2s;
 
 }
 .contact-label{
@@ -1753,7 +1747,7 @@ input {
  }
  
  .field:focus ~ label{
-    transform: translateY(-3m);
+    transform: translateY(-5rem);
     font-size: 1.2rem;
  }
 
