@@ -1522,6 +1522,7 @@ canvas#myChart{
 
     .mortgage-paragraph {
         width: 60rem;
+        height: 50vh;
         font-size: 3rem;
     }
 
@@ -1592,8 +1593,9 @@ canvas#myChart{
     }
 
     .mortgage-paragraph {
-        width: 50rem;
-        font-size: 3rem;
+        width: 70rem;
+        height: 50vh;
+        font-size: 4rem;
     }
 
     canvas#myChart {
