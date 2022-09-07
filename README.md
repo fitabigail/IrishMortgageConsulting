@@ -1,121 +1,85 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+## Project 2
 
-Welcome fitabigail,
+# Irish Mortgage Conssulting
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+Project is deployed [here]( https://fitabigail.github.io/IrishMortgageConsulting/)  
+  
+Github repository is [here](https://github.com/fitabigail) 
+![screen shot of am i responsive](./assets/readmeImages/am_responsive.png)
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+# Introduction
+This project is the second one I've undertaken as part of the Full Stack Software Diploma course at [Codeinstitute.net](https://www.CodeInstitute.net).
 
-## Gitpod Reminders
+It is an website about a mortgage consulting broker. The morgage broker offer advices  to the user about the requirements in relation to obtain a mortgage and guide him though the mortgage application process. The user is able to build a picture over the future mortgage using a handy calculator to determine how much will be the repayments, the cost of mortgage, and total amount to be pay. Also they have the option to book a meeting trough a Booking Form to meet with one of team member to have an in-depth knowledge of the mortgage.
+For general questions, and office contact they can rich the Contact Us page where is the office address with email and phone number, and a Contact Form with inpus fields for name, email and message. 
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
 
-`python3 -m http.server`
+# User Experience Design
 
-A blue button should appear to click: _Make Public_,
+<details>
+  
+  <summary>User Experience/User Interface (UX/UI)</summary>
 
-Another blue button should appear to click: _Open Browser_.
+### User stories
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+#### First Time Visitor Goals
 
-A blue button should appear to click: _Make Public_,
++ As a First Time user, I want to easily understand the main purpose of the site.
++ As a First Time user, I want to be able to easily navigate throughout the site to find content.
++ As a First Time user, I want to view the website and content clearly on my mobile device.
++ As a First Time user, I want the website content show me is qualified with years of industry experience.
++ As a First Time user, I want to find ways to follow the IrishMortgageConsulting on different social media platforms.
 
-Another blue button should appear to click: _Open Browser_.
+### Returning Visitor Goals
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
++ As a Returning user, I want to reused the mortgage calculator for future house upgrades.
++ As a Returning user, I want to get update team profiles.
++ As a Returning user, I want to contact the organisation so I can request more information.
 
-To log into the Heroku toolbelt CLI:
+### Frequent Visitor Goals
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
++ As a Frequent user, I want to check  the mortgage calculator.
++ As a Frequent user, I want to check to see if there are any new about mortgage requirements.
++ As a Frequent user, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the mortgage requirement.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+### Design
 
-------
+  
+  
+  #### Colour Scheme 
 
-## Release History
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+  I tried different colour palettes whilst building the website and settled on a simple combination of shades of orange, grey, wight and black.
+  Black, and withe is used for text colour and contrasts well with the other two primary colours. Default Orange was used for the link colour on hover, and for buttons. Diffrent shades of white, grey, and orange where used for bakgrounds.
+  + grey : hsla(0, 8%, 5%, 0.9), rgba(0, 0, 0, 0.5); rgba(7, 6, 6, 0.925); rgba(0, 0, 0, 0.87), rgba(0, 0, 0, 0.6);
+  + white: antiquewhite, aliceblue ;
+  + orange: #ce5713,  #8f2b04;
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+   #### Typography
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+  I choose 'Playfair Display' as the font for the site. The headers and forms on all pages throughout the Website are using 'Oswald' font.
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+   #### Wireframes
+  CTRL + Click to open in a new tab.
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+  # Features
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+<details>
+  
+  <summary>Features</summary>
+  
+  ### Responsive  Website
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+   The site displays properly at a wide range of screen sizes, further information on this is listed in the testing section. 
+   
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+  
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-## Images for Project
-
- * Images obtained 
  
- + Hero Background Image: 
- + Hero Image: https://www.pexels.com/photo/a-real-estate-agent-discussing-a-document-to-a-man-7415057/
- + Team Image1 : https://www.pexels.com/photo/selective-focus-photo-of-man-holding-black-suit-jacket-1311523/
- + Team Image2 : https://www.pexels.com/photo/a-woman-in-black-blazer-sitting-on-white-chair-8074612/
- + Team Image3 : https://www.pexels.com/photo/man-in-white-dress-shirt-holding-suit-jacket-1043474/
- + Mortgage Calculator banner: https://www.pexels.com/photo/crop-faceless-person-using-laptop-in-darkness-5926378/
- + Booking form : https://www.pexels.com/photo/people-on-a-video-call-4226122/
- 
- https://alvarotrigo.com/blog/css-checkbox-styles/ - checkbox code copied
- 
-## FAQ about the uptime script
 
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!

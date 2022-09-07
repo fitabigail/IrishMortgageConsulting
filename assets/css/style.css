@@ -1662,7 +1662,8 @@ canvas#myChart{
     }
 
     .mortgage-paragraph {
-        width: 40rem;
+        width: 60rem;
+        height:55vh;
     }
 
     .close_btn {
