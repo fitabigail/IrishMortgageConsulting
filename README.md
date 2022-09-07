@@ -64,7 +64,8 @@ For general questions, and office contact they can rich the Contact Us page wher
    #### Wireframes
   CTRL + Click to open in a new tab.
 
-
+</details>  
+  
   # Features
 
 <details>
@@ -74,7 +75,10 @@ For general questions, and office contact they can rich the Contact Us page wher
   ### Responsive  Website
 
    The site displays properly at a wide range of screen sizes, further information on this is listed in the testing section. 
+
    
+
+   ![screenshot of samsung S5](./assets/readmeImages/mobile-view-index.png)
 
 
 
