@@ -130,12 +130,23 @@ For general questions, and office contact they can rich the Contact Us page wher
 
 ### Booking section
 + This section includes two parts. First the banner with an animated arrow created with style css, and a button on click which will open the booking form.
-The second part is the Booking Form  with two parts: on the left side has the inputs fields, a check box (style css), an a submit button; on the right an image with a welcome message. On the right bottom corner has a closing button on x shape to exit the form(javascript code used for form).
+The second part is the Booking Form  with two parts: on the left side has the inputs fields, a check box (style css), an a submit button; on the right an image with a welcome message. On the right bottom corner has a closing button on x shape to exit the form(javascript code used for form). On submition will display an alert message.
 
-  ![HOME PAGE](./assets/readmeImages/book-meeting.png)
+![HOME PAGE](./assets/readmeImages/book-meeting.png)
 ![HOME PAGE](./assets/readmeImages/form-booking.png)
 
- 
+
+### Contact Us Page
+
++ Contact us page has as a future fliping Contact Form with two sides. On the first side the user can read the office address, and on the other side is the contact form with input fields for name, email, phone, message and a submit buttom. The user on submition will get an alert message.
+
+
+![HOME PAGE](./assets/readmeImages/contact-us.png)
+![HOME PAGE](./assets/readmeImages/contact-us-form.png)
+![HOME PAGE](./assets/readmeImages/contact-form-message.png)
+
+
+
 
 
 
