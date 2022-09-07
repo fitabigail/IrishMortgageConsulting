@@ -114,6 +114,30 @@ For general questions, and office contact they can rich the Contact Us page wher
 + The footer is a simple one which offer information about office address, and include easy access to the main relevant social media sites for Irish Mortgage Consulting.
 
 ![HOME PAGE](./assets/readmeImages/footer.png)
+  
+  
+### Scroll button
++ Home and Calculator has ascrool button with a smooth move to top of the pages( javascript for a smooth move).   
+    
+ ### CALCULATOR Page
+
+
+### Calculator section
++ Include a mortgage calculator to calculate the monthly repayments, cost of mortgage, and total to pay. Also include a pie chart which diplay amount borrowed and interest to pay. All this features are achived with javascrit code.
+
+![HOME PAGE](./assets/readmeImages/calcul-top.png)
+![HOME PAGE](./assets/readmeImages/calc-results.png)
+
+### Booking section
++ This section includes two parts. First the banner with an animated arrow created with style css, and a button on click which will open the booking form.
+The second part is the Booking Form  with two parts: on the left side has the inputs fields, a check box (style css), an a submit button; on the right an image with a welcome message. On the right bottom corner has a closing button on x shape to exit the form(javascript code used for form).
+
+  ![HOME PAGE](./assets/readmeImages/book-meeting.png)
+![HOME PAGE](./assets/readmeImages/form-booking.png)
+
+ 
+
+
 
  
   
