@@ -113,7 +113,7 @@ For general questions, and office contact they can rich the Contact Us page wher
 ### Footer 
 + The footer is a simple one which offer information about office address, and include easy access to the main relevant social media sites for Irish Mortgage Consulting.
 
-![HOME PAGE](./assets/readmeImages/team.png)
+![HOME PAGE](./assets/readmeImages/footer.png)
 
  
   
