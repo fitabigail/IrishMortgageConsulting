@@ -24,23 +24,23 @@ For general questions, and office contact they can rich the Contact Us page wher
 
 #### First Time Visitor Goals
 
-+ As a First Time user, I want to easily understand the main purpose of the site.
-+ As a First Time user, I want to be able to easily navigate throughout the site to find content.
-+ As a First Time user, I want to view the website and content clearly on my mobile device.
-+ As a First Time user, I want the website content show me is qualified with years of industry experience.
-+ As a First Time user, I want to find ways to follow the IrishMortgageConsulting on different social media platforms.
+- As a First Time user, I want to easily understand the main purpose of the site.
+ As a First Time user, I want to be able to easily navigate throughout the site to find content.
+- As a First Time user, I want to view the website and content clearly on my mobile device.
+- As a First Time user, I want the website content show me is qualified with years of industry experience.
+- As a First Time user, I want to find ways to follow the IrishMortgageConsulting on different social media platforms.
 
 ### Returning Visitor Goals
 
-+ As a Returning user, I want to reused the mortgage calculator for future house upgrades.
-+ As a Returning user, I want to get update team profiles.
-+ As a Returning user, I want to contact the organisation so I can request more information.
+- As a Returning user, I want to reused the mortgage calculator for future house upgrades.
+- As a Returning user, I want to get update team profiles.
+- As a Returning user, I want to contact the organisation so I can request more information.
 
 ### Frequent Visitor Goals
 
-+ As a Frequent user, I want to check  the mortgage calculator.
-+ As a Frequent user, I want to check to see if there are any new about mortgage requirements.
-+ As a Frequent user, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the mortgage requirement.
+- As a Frequent user, I want to check  the mortgage calculator.
+- As a Frequent user, I want to check to see if there are any new about mortgage requirements.
+- As a Frequent user, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the mortgage requirement.
 
 ### Design
 
@@ -51,9 +51,9 @@ For general questions, and office contact they can rich the Contact Us page wher
 
   I tried different colour palettes whilst building the website and settled on a simple combination of shades of orange, grey, wight and black.
   Black, and withe is used for text colour and contrasts well with the other two primary colours. Default Orange was used for the link colour on hover, and for buttons. Diffrent shades of white, grey, and orange where used for bakgrounds.
-  + grey : hsla(0, 8%, 5%, 0.9), rgba(0, 0, 0, 0.5); rgba(7, 6, 6, 0.925); rgba(0, 0, 0, 0.87), rgba(0, 0, 0, 0.6);
-  + white: antiquewhite, aliceblue ;
-  + orange: #ce5713,  #8f2b04;
+  - grey : hsla(0, 8%, 5%, 0.9), rgba(0, 0, 0, 0.5); rgba(7, 6, 6, 0.925); rgba(0, 0, 0, 0.87), rgba(0, 0, 0, 0.6);
+  - white: antiquewhite, aliceblue ;
+  - orange: #ce5713,  #8f2b04;
 
 
    #### Typography
@@ -65,6 +65,8 @@ For general questions, and office contact they can rich the Contact Us page wher
   CTRL + Click to open in a new tab.
 
 </details>  
+
+
   
   # Features
 
@@ -86,72 +88,153 @@ For general questions, and office contact they can rich the Contact Us page wher
 
 ### Navbar
 
-  + A feature on all three pages, the full responsive navigation bar includes link to Logo, Home page, Calculator page and Contact Us page and is indentical in each page to allow easy navigation. On the right the navbar has the logo linked to Home page, and a on the right side is the hamburger menu. On mouse click the hamburger is swiching to an arow and a full screen page is loading with the pages links, feature achived wiht javascript code.
+  - A feature on all three pages, the full responsive navigation bar includes link to Logo, Home page, Calculator page and Contact Us page and is indentical in each page to allow easy navigation. On the right the navbar has the logo linked to Home page, and a on the right side is the hamburger menu. On mouse click the hamburger is swiching to an arow and a full screen page is loading with the pages links, feature achived wiht javascript code.
 
     ![HOME PAGE](./assets/readmeImages/navbar.png)
 
 
 ### Section one - the landing
 
-  + This section include several diffrent css annimations on loading page. This include a big  animated banner with two titles bussines related subject, an welcome title, and dicover button  with a shine effect linked with Calculator page.
+  - This section include several diffrent css annimations on loading page. This include a big  animated banner with two titles bussines related subject, an welcome title, and dicover button  with a shine effect linked with Calculator page.
 
    ![HOME PAGE](./assets/readmeImages/landing-banner.png)
 
 ### About section
-
-+ About section include a video with a custom control, achived with javascript code. On clicking button the videowill start to play, and a bar will roll. If press the pause button the video will stop playing.
+ 
+- About section include a video with a custom control, achived with javascript code. On clicking button the videowill start to play, and a bar will roll. If press the pause button the video will stop playing.
 
 ![HOME PAGE](./assets/readmeImages/about.png)
 
 ###Team section
 
-+ This section  shows profile cards of the three members team. When hover the card  some information about the member will appear with a nice and cool hoover effect, the cards moves smooth with the cursor direction. This effect was creat use a javacript plugin tilt.js.
+- This section  shows profile cards of the three members team. When hover the card  some information about the member will appear with a nice and cool hoover effect, the cards moves smooth with the cursor direction. This effect was creat use a javacript plugin tilt.js.
 
 ![HOME PAGE](./assets/readmeImages/team.png)
 
 
 ### Footer 
-+ The footer is a simple one which offer information about office address, and include easy access to the main relevant social media sites for Irish Mortgage Consulting.
+- The footer is a simple one which offer information about office address, and include easy access to the main relevant social media sites for Irish Mortgage Consulting.
 
 ![HOME PAGE](./assets/readmeImages/footer.png)
   
   
 ### Scroll button
-+ Home and Calculator has ascrool button with a smooth move to top of the pages( javascript for a smooth move).   
+- Home and Calculator has ascrool button with a smooth move to top of the pages( javascript for a smooth move).   
     
  ### CALCULATOR Page
 
 
 ### Calculator section
-+ Include a mortgage calculator to calculate the monthly repayments, cost of mortgage, and total to pay. Also include a pie chart which diplay amount borrowed and interest to pay. All this features are achived with javascrit code.
+- Include a mortgage calculator to calculate the monthly repayments, cost of mortgage, and total to pay. Also include a pie chart which diplay amount borrowed and interest to pay. All this features are achived with javascrit code.
 
-![HOME PAGE](./assets/readmeImages/calcul-top.png)
-![HOME PAGE](./assets/readmeImages/calc-results.png)
+![CALCULATOR PAGE](./assets/readmeImages/calcul-top.png)
+![CALCULATOR PAGE](./assets/readmeImages/calc-results.png)
 
 ### Booking section
-+ This section includes two parts. First the banner with an animated arrow created with style css, and a button on click which will open the booking form.
+- This section includes two parts. First the banner with an animated arrow created with style css, and a button on click which will open the booking form.
 The second part is the Booking Form  with two parts: on the left side has the inputs fields, a check box (style css), an a submit button; on the right an image with a welcome message. On the right bottom corner has a closing button on x shape to exit the form(javascript code used for form). On submition will display an alert message.
 
-![HOME PAGE](./assets/readmeImages/book-meeting.png)
-![HOME PAGE](./assets/readmeImages/form-booking.png)
+![CALCULATOR  PAGE](./assets/readmeImages/book-meeting.png)
+![CALCULATOR PAGE](./assets/readmeImages/form-booking.png)
+![CALCULATOR PAGE](./assets/readmeImages/booking-message.png)
 
 
 ### Contact Us Page
 
-+ Contact us page has as a future fliping Contact Form with two sides. On the first side the user can read the office address, and on the other side is the contact form with input fields for name, email, phone, message and a submit buttom. The user on submition will get an alert message.
+- Contact us page has as a future fliping Contact Form with two sides. On the first side the user can read the office address, and on the other side is the contact form with input fields for name, email, phone, message and a submit buttom. The user on submition will get an alert message.
 
 
-![HOME PAGE](./assets/readmeImages/contact-us.png)
-![HOME PAGE](./assets/readmeImages/contact-us-form.png)
-![HOME PAGE](./assets/readmeImages/contact-form-message.png)
-
-
-
+![CONTACT US PAGE](./assets/readmeImages/contact-us.png)
+![CONTACT US PAGE](./assets/readmeImages/contact-us-form.png)
+![CONTACT US PAGE](./assets/readmeImages/contact-form-message.png)
 
 
 
- 
+### Possible Future Features
+
+I would like to add extra features to the site such us:
+
+ - to add in the future is integration with an email autoresponder service, such as Sendgrid;
+ - two more morgage calculator, one for Mortgage Rate Change Calculator and one for Extra Mortgage Payments Calculator;
+ - a blog where to post the lastes new from industry;
+ - a live chat for easy communication;
+ - a register form help the user to create an account and upload required documentation;
+
+ </details>    
+
+# Technologies Used
+<details>
+  <summary>Technologies Used</summary>
   
+  #### Languages Used
+  
+  - HTML5
+  - CSS
+  - Javascript
+
+  #### Applications Used
+
+- [Balsamiq](https://www.balsamiq.com) was used to create wireframes for this project.
+- [Google Fonts](https://fonts.google.com/) fonts were downloaded from Google Fonts.
+- [Fontawesome](https://www.fontawesome.com) icons were downloaded from Font Awesome.com.
+- [Git](https://git-scm.com/) Git was used for version control.
+- [GitHub](https://github.com/) GitHub is used to store the projects code.
+- [Gitpages](https://pages.github.com/) Gitpages are used to deploy the site.
+- [Chrome Developer Tools](https://developer.chrome.com/docs/devtools/) used for layout and responsive testing.
+- [favICO.com](https://convertico.com/favicon/) used for creating favicon.
+- [W3 Validator](https://jigsaw.w3.org/css-validator/) used to test html and css code.
+- [Jshint](https://jshint.com/) used to validate Javascript code.
+- [Freeconvert.com](https://www.freeconvert.com) was used to convert the background image file to the  webp format.
+- [Pexels.com](https://www.pexels.com) was used for free images.
+- [Caniuse.com/webp](https://caniuse.com/webp)  used to check compatibility of the webp file format.
+- [befunky.com](https://www.befunky.com/)  used to resize the images files.
+
+   
+</details>  
+  
+# Testing 
+<details>
+  <summary>Testing</summary>
+
+### W3c CSS Validator
+  The css file was tested using the W3c CSS validator showing no errors and 4 warnings all of the type "is a vendor extension" as shown below..
+<details>
+
+![CSS Validator](./assets/readmeImages/css-validator.png)
+
+ ![CSS Validator](./assets/readmeImages/css-warrnings.png)
+</details>
+
+### W3c HTML Validator
+  The HTML was tested with the W3c HTML Validator with no error returned all three pages.  
+<details>
+
+ ![HTML Validator](./assets/readmeImages/html-index-validator.png)
+</details>
+
+ ### JSHint
+  The Javascript file was validated using JSHint, with the following result.  The `New JavaScript features (ES6)` option was ticked in the 
+  Configure menu. 
+<details>
+
+![JAVASCRIPT CALCULATOR Validator](./assets/readmeImages/javasript-calculator-validation.png)
+
+![JAVASCRIPT index Validator](./assets/readmeImages/javacript-1.png)
+  </details>
+
+   #### Lighthouse
+  The web page was tested using the Lighthouse feature on the chrome browser giving the following result for desktop and mobile.    
+  It should be noted that the performance score was variable, ranging from the low eighties to 100 for desktop and mobile.  
+<details>
+
+![LIGHTHOUSE HOME PAGE DESKTOP](./assets/readmeImages/deskto-index.png)
+![LIGHTHOUSE HOME PAGE MOBILE ](./assets/readmeImages/mobile-index.png)
+![LIGHTHOUSE CALCULATOR PAGE DESKTOP](./assets/readmeImages/desktop-calculator.png)
+![LIGHTHOUSE CALCULATOR PAGE MOBILE](./assets/readmeImages/mobile-calculator.png)
+![LIGHTHOUSE CONTACT US PAGE DESKTOP](./assets/readmeImages/desktop-contact-us.png)
+![LIGHTHOUSE CONTACT US MOBILE](./assets/readmeImages/mobile-contact_us.png)
+</details>
+
     
 
 
