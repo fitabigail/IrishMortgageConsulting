@@ -76,9 +76,49 @@ For general questions, and office contact they can rich the Contact Us page wher
 
    The site displays properly at a wide range of screen sizes, further information on this is listed in the testing section. 
 
-   
 
-   ![screenshot of samsung S5](./assets/readmeImages/mobile-view-index.png)
+
+   ![screenshot of samsung S5](./assets/readmeImages/mobile-view-index.png)        ![screenshot of samsung S5](./assets/readmeImages/responsive-calculator.png)           ![screenshot of samsung S5](./assets/readmeImages/mobile-ph-contact.png);
+
+
+
+  ### HOME Page
+
+### Navbar
+
+  + A feature on all three pages, the full responsive navigation bar includes link to Logo, Home page, Calculator page and Contact Us page and is indentical in each page to allow easy navigation. On the right the navbar has the logo linked to Home page, and a on the right side is the hamburger menu. On mouse click the hamburger is swiching to an arow and a full screen page is loading with the pages links, feature achived wiht javascript code.
+
+    ![HOME PAGE](./assets/readmeImages/navbar.png)
+
+
+### Section one - the landing
+
+  + This section include several diffrent css annimations on loading page. This include a big  animated banner with two titles bussines related subject, an welcome title, and dicover button  with a shine effect linked with Calculator page.
+
+   ![HOME PAGE](./assets/readmeImages/landing-banner.png)
+
+### About section
+
++ About section include a video with a custom control, achived with javascript code. On clicking button the videowill start to play, and a bar will roll. If press the pause button the video will stop playing.
+
+![HOME PAGE](./assets/readmeImages/about.png)
+
+###Team section
+
++ This section  shows profile cards of the three members team. When hover the card  some information about the member will appear with a nice and cool hoover effect, the cards moves smooth with the cursor direction. This effect was creat use a javacript plugin tilt.js.
+
+![HOME PAGE](./assets/readmeImages/team.png)
+
+
+### Footer 
++ The footer is a simple one which offer information about office address, and include easy access to the main relevant social media sites for Irish Mortgage Consulting.
+
+![HOME PAGE](./assets/readmeImages/team.png)
+
+ 
+  
+    
+
 
 
 
