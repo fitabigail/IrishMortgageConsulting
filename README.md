@@ -1,17 +1,18 @@
 ## Project 2
 
-# Irish Mortgage Conssulting
+# Irish Mortgage Consulting
 
-Project is deployed [here]( https://fitabigail.github.io/IrishMortgageConsulting/)  
-  
+Project is deployed [here]( https://fitabigail.github.io/IrishMortgageConsulting/)   
 Github repository is [here](https://github.com/fitabigail) 
+
+
+
 ![screen shot of am i responsive](./assets/readmeImages/am_responsive.png)
 
 # Introduction
 This project is the second one I've undertaken as part of the Full Stack Software Diploma course at [Codeinstitute.net](https://www.CodeInstitute.net).
-
-It is an website about a mortgage consulting broker. The morgage broker offer advices  to the user about the requirements in relation to obtain a mortgage and guide him though the mortgage application process. The user is able to build a picture over the future mortgage using a handy calculator to determine how much will be the repayments, the cost of mortgage, and total amount to be pay. Also they have the option to book a meeting trough a Booking Form to meet with one of team member to have an in-depth knowledge of the mortgage.
-For general questions, and office contact they can rich the Contact Us page where is the office address with email and phone number, and a Contact Form with inpus fields for name, email and message. 
+It is an website about mortgages trough broker. The mortgage broker offer advices  to the user about the requirements in relation to obtain a mortgage and guide him though the mortgage application process. The user is able to build a picture over the future mortgage using a handy calculator to determine how much will be his repayments, the cost of mortgage, and total amount to be pay. Also they have the option to book a meeting trough a Booking Form to meet with one of  the team member to have an in-depth knowledge of the mortgage.
+For general questions, and office contact they can rich the Contact Us page where is the office address with email and phone number, and a Contact Form with input fields for name, email and message. 
 
 
 # User Experience Design
@@ -25,9 +26,9 @@ For general questions, and office contact they can rich the Contact Us page wher
 #### First Time Visitor Goals
 
 - As a First Time user, I want to easily understand the main purpose of the site.
- As a First Time user, I want to be able to easily navigate throughout the site to find content.
+- As a First Time user, I want to be able to easily navigate throughout the site to find content.
 - As a First Time user, I want to view the website and content clearly on my mobile device.
-- As a First Time user, I want the website content show me is qualified with years of industry experience.
+- As a First Time user, I want the website the team is qualified with years of industry experience.
 - As a First Time user, I want to find ways to follow the IrishMortgageConsulting on different social media platforms.
 
 ### Returning Visitor Goals
@@ -39,8 +40,8 @@ For general questions, and office contact they can rich the Contact Us page wher
 ### Frequent Visitor Goals
 
 - As a Frequent user, I want to check  the mortgage calculator.
-- As a Frequent user, I want to check to see if there are any new about mortgage requirements.
-- As a Frequent user, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the mortgage requirement.
+- As a Frequent user, I want to check if there are any news about mortgage requirements.
+- As a Frequent user, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the mortgage requirements.
 
 ### Design
 
@@ -49,8 +50,8 @@ For general questions, and office contact they can rich the Contact Us page wher
   #### Colour Scheme 
 
 
-  I tried different colour palettes whilst building the website and settled on a simple combination of shades of orange, grey, wight and black.
-  Black, and withe is used for text colour and contrasts well with the other two primary colours. Default Orange was used for the link colour on hover, and for buttons. Diffrent shades of white, grey, and orange where used for bakgrounds.
+  I tried different colour palettes whilst building the website and settled on a simple combination of shades of orange, grey, white and black.
+  Black, and white is used for text color and contrast well with the other two primary colours. Default Orange was used for the link color on hover, and for buttons. Diffrent shades of white, grey, and orange where used for backgrounds.
   - grey : hsla(0, 8%, 5%, 0.9), rgba(0, 0, 0, 0.5); rgba(7, 6, 6, 0.925); rgba(0, 0, 0, 0.87), rgba(0, 0, 0, 0.6);
   - white: antiquewhite, aliceblue ;
   - orange: #ce5713,  #8f2b04;
@@ -89,7 +90,7 @@ For general questions, and office contact they can rich the Contact Us page wher
 
 ### Navbar
 
-  - A feature on all three pages, the full responsive navigation bar includes link to Logo, Home page, Calculator page and Contact Us page and is indentical in each page to allow easy navigation. On the right the navbar has the logo linked to Home page, and a on the right side is the hamburger menu. On mouse click the hamburger is swiching to an arow and a full screen page is loading with the pages links, feature achived wiht javascript code.
+  - A feature on all three pages, the full responsive navigation bar includes link to Logo, Home page, Calculator page and Contact Us page and is indentical in each page to allow easy navigation. On page loading the navigation bar drop down smoothly to catch up user attention. On left side the navbar has the logo linked to Home page, and a on the right side is the hamburger menu. On mouse click the hamburger is swiching to an arow and a full screen page is loading with the pages links, feature achived with javascript code.
 
     ![HOME PAGE](./assets/readmeImages/navbar.png)
 
@@ -102,13 +103,13 @@ For general questions, and office contact they can rich the Contact Us page wher
 
 ### About section
  
-- About section include a video with a custom control, achived with javascript code. On clicking button the videowill start to play, and a bar will roll. If press the pause button the video will stop playing.
+- About section include a video with a custom control, achived with javascript code. On clicking the video button will start the video, and a bar will roll. If press the pause button the video will stop playing.
 
 ![HOME PAGE](./assets/readmeImages/about.png)
 
 ### Team section
 
-- This section  shows profile cards of the three members team. When hover the card  some information about the member will appear with a nice and cool hoover effect, the cards moves smooth with the cursor direction. This effect was creat use a javacript plugin tilt.js.
+- This section  shows profile cards of the three members team. When hover the card  some information about the member will appear with a nice and cool hoover effect, the cards moves smooth with the cursor direction. This effect was achived calling JQuery cdn tools for plugin tilt.js.
 
 ![HOME PAGE](./assets/readmeImages/team.png)
 
@@ -120,7 +121,7 @@ For general questions, and office contact they can rich the Contact Us page wher
   
   
 ### Scroll button
-- Home and Calculator has ascrool button with a smooth move to top of the pages( javascript for a smooth move).   
+- Home and Calculator has a scrool button with a smooth move to top of the pages( used javascript for a smooth move).   
     
  ### CALCULATOR Page
 
@@ -132,7 +133,7 @@ For general questions, and office contact they can rich the Contact Us page wher
 ![CALCULATOR PAGE](./assets/readmeImages/calc-results.png)
 
 ### Booking section
-- This section includes two parts. First the banner with an animated arrow created with style css, and a button on click which will open the booking form.
+- This section includes two parts. First the banner with an animated arrow created with style css, and a button on click is opening the booking form.
 The second part is the Booking Form  with two parts: on the left side has the inputs fields, a check box (style css), an a submit button; on the right an image with a welcome message. On the right bottom corner has a closing button on x shape to exit the form(javascript code used for form). On submition will display an alert message.
 
 ![CALCULATOR  PAGE](./assets/readmeImages/book-meeting.png)
@@ -142,7 +143,7 @@ The second part is the Booking Form  with two parts: on the left side has the in
 
 ### Contact Us Page
 
-- Contact us page has as a future fliping Contact Form with two sides. On the first side the user can read the office address, and on the other side is the contact form with input fields for name, email, phone, message and a submit buttom. The user on submition will get an alert message.
+- Contact us page has as a future fliping Contact Form with two sides. On the first side the user can read the office address, and on the other side is the contact form with input fields for name, email, phone, message and a submit buttom. The user on submition will get an alert message. The contact form is calling Smtp.com script plugin. This required an SMTP server, which I could implemented as required a domain to be owned.This is a feature plan to add integration with an email autoresponder service, such as Sendgrid.
 
 
 ![CONTACT US PAGE](./assets/readmeImages/contact-us.png)
@@ -201,7 +202,7 @@ I would like to add extra features to the site such us:
   <summary>Testing</summary>
 
 ### W3c CSS Validator
-  The css file was tested using the W3c CSS validator showing no errors and 4 warnings all of the type "is a vendor extension" as shown below..
+  The css file was tested using the W3c CSS validator showing no errors, and 4 warnings all of the type "is a vendor extension" as shown below..
 <details>
 
 ![CSS Validator](./assets/readmeImages/css-validator.png)
@@ -217,7 +218,7 @@ I would like to add extra features to the site such us:
 </details>
 
  ### JSHint
-  The Javascript file was validated using JSHint, with the following result.  The `New JavaScript features (ES6)` option was ticked in the 
+  The Javascript file was validated using JSHint, with the following result. The `New JavaScript features (ES6)` option was ticked in the 
   Configure menu. 
 <details>
 
@@ -267,7 +268,7 @@ A brief summary of some of the difficulties I had building this site and how I a
  + I had many problems positioning the text div from Calculator page and fixed using diffrent percents for 'font-size', widh and height set on vh to get them to satisfactorily position on diffrent devices.
  + The chart pie cause me trouble on diffrent devices size, as had a predefined style. I changed the width and height of canvas html element and adapted to diffrent screen size.
  + The checked box from Booking for put me in difficulty as I tried to set the konb and was not fit on the right spot. So I decide to get already writen code and adapted to my site style, which worked well only the html validator did not allow div as a child of a label so I replaced and fixed the error with a span element.
- + On booking form after submition a message is loading after. On click on the message the user shoud return to the Calculator page. I write the function myBooking() to write the alert message and retun to page. The function was not working as I used for action attribute the w3 web page from example for testing. Now I know no need of action attibute, if I have a function to call.
+ + On booking form submit button on click apper a message to user and shoud return to the Calculator page. I write the function myBooking() to write the alert message and retun to page. The function was not working as I used form action attribute from w3 web page for testing example. Now I know no need of action attibute, if I have a function to call.
 + I had to become familiar with many new (to me) css properties such as transform-origin, transform-style, backface-visibility and perspective. 
 
 ### Manual Testing for Bugs
@@ -310,14 +311,14 @@ The live Project can be found [here](https://fitabigail.github.io/IrishMortgageC
 ### Issues and Resolutions to issues found during testing
 
 - booking form after clossing message alert was not redirected to calculator page, issue fixed;
-- the contact form did not send the email with the message, the plugin used https://smtpjs.com/ reqired an https://elasticemail.com/ where the domain must be verified. Us the gitpod domain name is not owned it can not be verified; 
+- the contact form did not send the email with the message, the plugin used https://smtpjs.com/ required SMTP server and I couldn't used my elastic email host account https://elasticemail.com/ because the domain must be verified. Us the gitpod domain name is not owned it can not be verified; 
 
 ### Issues Remaining (Known to me)
 
 + There are large space over the Home and Calculator page. This issue could be fixed by resize the divs, but beacause a short time I will leave this for another time.
 + The bottom height of calculator background increasing once the  device size is decreasing;
 + I shoud increase the color contrast and font size;
-+ the pie chart should reset with the new amount and interest pie  when input values to mortgage amount. At this stage the pie chart is updating on change of the years and interest values;
++ The pie chart should reset with the new amount and interest pie  when input values to mortgage amount field. At this stage the pie chart is updating on change of the years and interest values;
 </details>
 ### GitHub Pages
 # Deployment
@@ -410,20 +411,20 @@ As this project was developed on the main branch, all changes made to the reposi
 
 ### Code/Reference 
 
-- Code Institute without who I would have had no base to begin a project & Readme.md Template .https://codeinstitute.net/ie/
+- Code Institute without I would have had no base to begin a project & Readme.md Template .https://codeinstitute.net/ie/
 - GitHub for my workspace and saving all my work as well as my deployed project . https://github.com/ ;  
 - The Slack community - for someone always been there no matter the time and with advice or direction. https://slack.com';
-- https://smartmortgages.ie/ - inspired me for building the site and got text from them;
+- https://smartmortgages.ie/ - inspired me for building the site and get the content from them;
  - https://stackoverflow.com/users/6887992/aperezfals - the method of redirect to calculator page after message is closed;
  - https://www.udemy.com/course/10-mega-responsive-websites-with-html-css-and-javascript/learn/lecture/23410300#overview - Udemy course for home page, helping me to build a nice layout;
  - https://www.udemy.com/course/50-web-projects-with-html-css-and-javascript/learn/lecture/32013882#overview -Udemy course for booking form;
  - https://www.youtube.com/watch?v=kIvft1uEi4Y&t=0s - Live Blogger youtube channel help me to create to calculator;
- -  https://dev.to/bosspetta/mortgage-loan-calculator-with-javascript-2la7 - Dev Community help me to understand the way declares the values;
- - https://www.youtube.com/watch?v=sGQSz22U8VM - Easy tutorials for contact us form;
+ -  https://dev.to/bosspetta/mortgage-loan-calculator-with-javascript-2la7 - Dev Community help me to understand how declares the values;
+ - https://www.youtube.com/watch?v=sGQSz22U8VM - Easy youtube chanel tutorials for contact us form;
  - https://www.w3schools.com/ - guide me for flipping contact form;
 
 ### Note 
- * I'd like to thank my mentor Ronan McClelland for his guidance throughout my project. 
- * I would like to thank everyone for all and any assistance given during the development of my website. 
- * All information within this website is for education and training purposes only .
- * All code has been as much as possible credited to the source that the code came from.
+ - I'd like to thank my mentor Ronan McClelland for his guidance throughout my project. 
+ - I would like to thank everyone for all and any assistance given during the development of my website. 
+ - All information within this website is for education and training purposes only .
+ - All code has been as much as possible credited to the source that the code came from.
