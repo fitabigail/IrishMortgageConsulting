@@ -66,7 +66,7 @@ For general questions, and office contact they can rich the Contact Us page wher
   CTRL + Click to open in a new tab.
   
   <details> 
-     ![Balsamic Wireframes](./assets/readmeImages/balsamic-home.png)
+      ![Balsamic Wireframes](./assets/readmeImages/balsamic-home.png)
 </details>  
 
 </details> 
