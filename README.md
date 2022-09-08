@@ -411,8 +411,9 @@ As this project was developed on the main branch, all changes made to the reposi
 ### Code/Reference 
 
 - Code Institute without who I would have had no base to begin a project & Readme.md Template .https://codeinstitute.net/ie/
-- GitHub for my workspace and saving all my work as well as my deployed project . https://github.com/   
+- GitHub for my workspace and saving all my work as well as my deployed project . https://github.com/ ;  
 - The Slack community - for someone always been there no matter the time and with advice or direction. https://slack.com';
+- https://smartmortgages.ie/ - inspired me for building the site and got text from them;
  - https://stackoverflow.com/users/6887992/aperezfals - the method of redirect to calculator page after message is closed;
  - https://www.udemy.com/course/10-mega-responsive-websites-with-html-css-and-javascript/learn/lecture/23410300#overview - Udemy course for home page, helping me to build a nice layout;
  - https://www.udemy.com/course/50-web-projects-with-html-css-and-javascript/learn/lecture/32013882#overview -Udemy course for booking form;
