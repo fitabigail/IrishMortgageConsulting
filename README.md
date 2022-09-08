@@ -64,11 +64,12 @@ For general questions, and office contact they can rich the Contact Us page wher
 
    #### Wireframes
   CTRL + Click to open in a new tab.
-  <details> </details>
-![Balsamic Wireframes](./assets/readmeImages/balsamic-home.png)  
+  
+  <details> 
+    ![Balsamic Wireframes](./assets/readmeImages/balsamic-home.png)  
 </details>  
 
-
+</details> 
   
   # Features
 
