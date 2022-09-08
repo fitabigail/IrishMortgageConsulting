@@ -419,6 +419,7 @@ As this project was developed on the main branch, all changes made to the reposi
  - https://www.youtube.com/watch?v=kIvft1uEi4Y&t=0s - Live Blogger youtube channel help me to create to calculator;
  -  https://dev.to/bosspetta/mortgage-loan-calculator-with-javascript-2la7 - Dev Community help me to understand the way declares the values;
  - https://www.youtube.com/watch?v=sGQSz22U8VM - Easy tutorials for contact us form;
+ - https://www.w3schools.com/ - guide me for flipping contact form;
 
 ### Note 
  * I'd like to thank my mentor Ronan McClelland for his guidance throughout my project. 
