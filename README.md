@@ -291,7 +291,7 @@ The live Project can be found [here](https://fitabigail.github.io/IrishMortgageC
  * Testing During development of the pages was done through the project to see how the project looked and felt
 
 | Feature                |  Expect                                     |  Action         |  Result                                  |
-|------------------------|---------------------------------------------|----------=======|------------------------------------------|
+|------------------------|---------------------------------------------|-----------------|------------------------------------------|
 | Logo                   |  Link to home page                          | Click On        | Load the home page                       |
 | Banner home animation  |  Animation                                  | On Load         | Animation                                |
 | Dicover button         |  Link to calculator page                    | Click On        | Load the calculator page                 |
@@ -323,8 +323,11 @@ The live Project can be found [here](https://fitabigail.github.io/IrishMortgageC
 + I shoud increase the color contrast and font size;
 + The pie chart should reset with the new amount and interest pie  when input values to mortgage amount field. At this stage the pie chart is updating on change of the years and interest values;
 </details>
+
 ### GitHub Pages
+
 # Deployment
+
   <details>
     
   <summary>Deployment</summary>
