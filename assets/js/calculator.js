@@ -100,4 +100,4 @@ document.querySelector('.close_btn').addEventListener('click', () => {
 function myBooking() {
   alert("Thank you for your booking request. Soon one of our team will be in touch with you.");
   window.location.replace('https://fitabigail.github.io/IrishMortgageConsulting/mortgage-calculator.html');
-  }
+}

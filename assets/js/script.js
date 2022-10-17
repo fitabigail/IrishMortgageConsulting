@@ -1,70 +1,53 @@
      //Navigation 
 
-     const menu = document.querySelector(".menu");
-     const navbar = document.querySelector(".navbar");
-     menu.addEventListener('click', () => {
+    const menu = document.querySelector(".menu");
+    const navbar = document.querySelector(".navbar");
+    menu.addEventListener('click', () => {
          navbar.classList.toggle('change');
          menu.classList.toggle('change');
      });
 
      // Section About - Video
 
-     const video = document.querySelector('.video');
-     const btn = document.querySelector('.buttons i');
-     const bar = document.querySelector('.video_bar');
-     const playPause = () => {
-         if (video.paused) {
-             video.play();
-             btn.className = 'far fa-pause-circle';
-             video.style.opacity = '.9';
-         } else {
-             video.pause();
-             btn.className = 'far fa-play-circle';
-             video.style.opacity = '.6';
-         }
-     };
+    const video = document.querySelector('.video');
+    const btn = document.querySelector('.buttons i');
+    const bar = document.querySelector('.video_bar');
+    const playPause = () => {
+        if (video.paused) {
+            video.play();
+            btn.className = 'far fa-pause-circle';
+            video.style.opacity = '.9';
+        } else {
+            video.pause();
+            btn.className = 'far fa-play-circle';
+            video.style.opacity = '.6';
+        }
+    };
 
-     btn.addEventListener('click', () => {
+    btn.addEventListener('click', () => {
          playPause();
-     });
+    });
 
      //video bar 
 
-     video.addEventListener('timeupdate', () => {
-         const barWidth = video.currentTime / video.duration;
-         bar.style.width = `${barWidth * 100}%`;
-         if (video.ended) {
-             btn.className = 'far fa-play-circle';
-             video.style.opacity = '0.6';
-         }
-     });
+    video.addEventListener('timeupdate', () => {
+        const barWidth = video.currentTime / video.duration;
+        bar.style.width = `${barWidth * 100}%`;
+        if (video.ended) {
+            btn.className = 'far fa-play-circle';
+            video.style.opacity = '0.6';
+        }
+    });
 
      //Scroll Button
 
-     document.querySelector('.scroll_btn').addEventListener(
+    document.querySelector('.scroll_btn').addEventListener(
          'click', () => {
-             document.querySelector('html').style.scrollBehavior = 'smooth';
-             setTimeout(() => {
-                 document.querySelector('html').style.scrollBehavior = 'unset';
-             }), 1000;
+            document.querySelector('html').style.scrollBehavior = 'smooth';
+            setTimeout(() => {
+                document.querySelector('html').style.scrollBehavior = 'unset';
+            }), 1000;
          }
      );
 
-     // CONTACT US FORM
-
-     function sendEmail(){
-        Email.send({
-            Host : "smtp.yahoo.com",
-            Username : "abi_dinu@yahoo.com",
-            Password : "",
-            To : 'abidinu35@gmail.com',
-            From : document.getElementById('email').value,
-            Subject : "New Contact Form Enquiry",
-            Body : "Name: " + document.getElementById('name').value
-            + "<br> Email:" + document.getElementById('email').value
-            + "<br> Phone no:" + document.getElementById('phone').value
-            + "<br> Message:" + document.getElementById('message').value
-        }).then(
-          message => alert("Message send succefuly")
-        );
-     }
+     
