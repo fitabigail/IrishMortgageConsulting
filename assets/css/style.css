@@ -485,8 +485,7 @@ html {
 }
 
 .cards_wp {
-    display: flex;    
-    flex-direction: column;
+    display: flex;     
     width: 100%;
     justify-content: space-evenly;
     margin-top: 8rem;
@@ -1311,7 +1310,7 @@ canvas.myChart {
 
 /* Media query */
 
-@media (max-width: 2600px)
+@media (max-width: 2400px)
 {
     .cards_wp{
         flex-direction: row;
@@ -1379,8 +1378,8 @@ canvas.myChart {
     }
        
     .cards_wp{       
-        gap:2rem;
-        flex-direction: column;
+        gap:2rem; 
+        flex-direction: column;       
         align-items: center;
     }   
    
