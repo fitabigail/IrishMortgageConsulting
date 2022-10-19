@@ -1311,7 +1311,7 @@ canvas.myChart {
 
 /* Media query */
 
-@media (max-width: 2200px)
+@media (max-width: 2600px)
 {
     .cards_wp{
         flex-direction: row;
