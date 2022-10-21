@@ -1559,5 +1559,57 @@ canvas.myChart {
     }
 html{
     font-size: 50%;
+}}
+
+@media (min-width: 320px) {
+    .section_about {
+        height: 135vh;
+        font-size: 1.5rem;
+    }
+
+    .about-heading {
+        border: none;
+        top: 5%;
+    }
+
+    .video_section {
+        display: none;
+
+    }
+
+    .about_text {
+        width: 30rem;
+
+    }
+
+    .hero-heading {
+        height: 10rem;
+        border-bottom: none;
+
+    }
+
+    .hero-heading span {
+        font-size: 3rem;
+        letter-spacing: 1rem;
+    }
+
+    .hero_text {
+        width: 30rem;
+        font-size: 1.5rem;
+    }
+
+    .card {
+        width: 37rem;
+        height: 45rem;
+    }
+
+    .card_info {
+        width: 37rem;
+        height: 45rem;
+    }
+
+    html {
+        font-size: 45%;
+    }
 }
-}
+
