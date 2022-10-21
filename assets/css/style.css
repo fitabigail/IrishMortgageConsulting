@@ -151,7 +151,9 @@ html {
     font-size: 3rem;
     font-weight: bold;
 }
-
+.logo2{
+    visibility: hidden;
+} 
 /* Section One style */
 
 .section_one {
@@ -1310,6 +1312,9 @@ canvas.myChart {
 @media (max-width: 1800px)
 
 {
+    .section_about{
+        height:100vh;
+    }
    .video_section{
     width: 90rem;
     height: 45rem;
@@ -1323,20 +1328,20 @@ canvas.myChart {
    }
    
 }
-}
-@media (max-width: 1650px){
 
+@media (max-width: 1650px){
     
     .section_about{
-        height:100vh;
+        height:170vh;
     }
     .video_section{
         width: 85rem;
         height: 40rem;
         right: 5rem;
+        top:10%;
     
        }
-       .about_text{
+    .about_text{
         width: 85rem;
         right: 5rem;
         bottom: 10rem;
@@ -1350,13 +1355,27 @@ canvas.myChart {
     .team_line{
         display:none;
     }
+    .about-heading {        
+        border: none;
+        top:5%;
+    }
+    .section_about{
+        height:150vh;
+    }
+    .video_section{
+        width: 85rem;
+        height: 40rem;
+        top:10%;
+        right: 5rem;
+    
+       }
+    .about_text{       
+        right: 5rem;
+        bottom: 10rem;    
+       }
     .cards_wp{
         gap:5rem;
     }
-    
-}
-
-@media (max-width: 1200px){
     .cards_wp{
         flex-direction: column;
         gap:5rem;
@@ -1364,20 +1383,181 @@ canvas.myChart {
         align-items: center;
     }
     
-   
+    
 }
+    
+   
+
 @media (max-width: 991px){
     html{
         font-size: 58%;
     }
     .hero-heading span{
-        font-size: 10rem;
+        font-size: 7rem;
     }
     .hero_text{
-        width:45rem;
-        font-size: 3rem;}
+        width:40rem;
+        font-size: 2.5rem;}
     
-    
+    .section_about{
+            height:205vh;
+        }
+        .about-heading {            
+            border: none;
+            top:10%;
+        }    
+    .video_section{
+        top:20%;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 80rem;
+    }
+    .about_text{
+        left:50%;
+        transform: translateX(-50%);
+        width: 80rem;
+    }        
 
 }
 
+@media (max-width: 760px){
+
+    .section_one{
+        height: 80vh;
+    }
+    .hero{
+        top: 25%;
+    }
+    .hero-heading{
+        height: 15rem;
+
+    }
+    .hero-heading span{
+        font-size: 6rem;
+        letter-spacing: 1rem;
+    }
+    .section_about{
+        height: 195vh;
+    }
+    .about-heading {
+        font-size: 5rem;
+        border: none;
+        top:5%;
+    }
+    .team_heading{
+        font-size: 5rem;
+    }
+    .video_section{
+        top:10%;
+        width:60rem;
+
+    }
+    .about_text{
+        width:60rem;
+
+    }
+
+    .footer{        
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        height: 40rem;      
+
+    }
+       
+}
+@media (max-width: 560px){
+    .hero-heading span{
+        font-size: 5rem;
+    }
+    .section_about{
+        height: 135vh;
+    }
+    .about-heading{
+        border: none;
+        top:5%;
+    }
+
+    .video_section{
+        display: none;
+  
+      }
+    
+    .about_text{
+        width:45rem;
+
+    }
+
+@media (max-width: 460px){
+    .logo1{
+        visibility: hidden;
+    }
+    .logo2{
+        visibility: visible;
+        float:left;
+    }
+    .section_about{
+        height: 155vh;
+    }
+    .about-heading{
+        border: none;
+        top:5%;
+    }
+    .video_section{
+        display: none;
+  
+      }
+    
+    .about_text{
+        width:35rem;
+
+    }
+    .footer{
+        height: 50rem;
+    }
+
+}
+@media (max-width: 391px){
+
+    .section_about{
+        height: 195vh;
+        font-size: 1.5rem;
+    }
+.about-heading{
+    border: none;
+    top:5%;
+}
+    .video_section{
+      display: none;
+
+    }
+    .about_text{
+        width:25rem;
+
+    }
+    .hero-heading{
+        height: 10rem;
+        border-bottom: none;
+
+    }
+    
+    .hero-heading span{
+        font-size: 3rem;
+        letter-spacing: 1rem;
+    }
+    .hero_text{
+        width:30rem;
+        font-size: 1.5rem;
+    }
+    .card{
+        width: 27rem;
+        height: 35rem;
+    }
+    .card_info{
+        width: 27rem;
+        height: 35rem;
+    }
+html{
+    font-size: 50%;
+}
+}
