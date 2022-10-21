@@ -151,9 +151,11 @@ html {
     font-size: 3rem;
     font-weight: bold;
 }
-.logo2{
+
+.logo2 {
     visibility: hidden;
-} 
+}
+
 /* Section One style */
 
 .section_one {
@@ -326,8 +328,8 @@ html {
     height: 115vh;
     background-color: rgba(7, 6, 6, 0.925);
     display: flex;
-    flex-direction: column; 
-    justify-content: space-between;   
+    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
     padding: 0 10rem;
     position: relative;
@@ -410,11 +412,11 @@ html {
     font-weight: 300;
     position: absolute;
     left: 10rem;
-    top:3rem;
+    top: 3rem;
     color: antiquewhite;
-    margin-bottom: 8rem;          
+    margin-bottom: 8rem;
     border-bottom: 0.2rem solid antiquewhite;
-   
+
 
 }
 
@@ -428,7 +430,7 @@ html {
     font-size: 2rem;
     border-top: 0.2rem solid antiquewhite;
     border-bottom: 0.2rem solid antiquewhite;
-    padding: 1rem;   
+    padding: 1rem;
     justify-content: center;
     align-items: center;
     text-align: justify;
@@ -485,7 +487,7 @@ html {
 }
 
 .cards_wp {
-    display: flex;     
+    display: flex;
     width: 100%;
     gap: 10rem;
     justify-content: space-evenly;
@@ -520,7 +522,7 @@ html {
 
 .card:hover .img-wp img {
     opacity: 1;
-    
+
 }
 
 .card_info {
@@ -533,7 +535,7 @@ html {
     visibility: hidden;
     transition: all 0.3s;
     background: rgba(85, 35, 1, 0.5);
-    
+
 }
 
 .card:hover .card_info {
@@ -565,9 +567,9 @@ html {
     line-height: 2.5rem;
     letter-spacing: 0.1rem;
     font-weight: 400;
-    color:antiquewhite;
-    width: 80%;   
-     
+    color: antiquewhite;
+    width: 80%;
+
 }
 
 
@@ -679,7 +681,7 @@ html {
 .text-wp {
 
     position: relative;
-  
+
 }
 
 .mortgage_line {
@@ -1309,267 +1311,193 @@ canvas.myChart {
 
 /* Media query */
 
-@media (max-width: 2200px)
-
-{
-    .section_about{
-        height:130vh;
+@media (max-width: 2200px) {
+    .section_about {
+        height: 130vh;
     }
-   .video_section{
-    width: 90rem;
-    height: 45rem;
-    right: 10rem;
 
-   }
-   .about_text{
-    width: 90rem;
-    right: 10rem;
+    .video_section {
+        width: 90rem;
+        height: 45rem;
+        right: 10rem;
 
-   }
-   
+    }
+
+    .about_text {
+        width: 90rem;
+        right: 10rem;
+
+    }
+
 }
 
-@media (max-width: 1650px){
-    
-    .section_about{
-        height:150vh;
+@media (max-width: 1650px) {
+
+    .section_about {
+        height: 150vh;
     }
-    .video_section{
+
+    .video_section {
         width: 85rem;
         height: 40rem;
         right: 5rem;
-        top:10%;
-    
-       }
-    .about_text{
+        top: 10%;
+
+    }
+
+    .about_text {
         width: 85rem;
         right: 5rem;
         bottom: 10rem;
-    
-       }
-       
+
+    }
+
 }
 
-@media (max-width: 1500px){
+@media (max-width: 1500px) {
 
-    .team_line{
-        display:none;
+    .team_line {
+        display: none;
     }
-    .about-heading {        
+
+    .about-heading {
         border: none;
-        top:5%;
+        top: 5%;
     }
-    .section_about{
-        height:160vh;
+
+    .section_about {
+        height: 160vh;
     }
-    .video_section{
+
+    .video_section {
         width: 85rem;
         height: 40rem;
-        top:10%;
+        top: 10%;
         right: 5rem;
-    
-       }
-    .about_text{       
-        right: 5rem;
-        bottom: 10rem;    
-       }
-    .cards_wp{
-        gap:5rem;
+
     }
-    .cards_wp{
+
+    .about_text {
+        right: 5rem;
+        bottom: 10rem;
+    }
+
+    .cards_wp {
+        gap: 5rem;
+    }
+
+    .cards_wp {
         flex-direction: column;
-        gap:5rem;
+        gap: 5rem;
         justify-content: center;
         align-items: center;
     }
-    
-    
-}
-    
-   
 
-@media (max-width: 991px){
-    html{
+
+}
+
+
+
+@media (max-width: 991px) {
+    html {
         font-size: 58%;
     }
-    .hero-heading span{
+
+    .hero-heading span {
         font-size: 7rem;
     }
-    .hero_text{
-        width:40rem;
-        font-size: 2.5rem;}
-    
-    .section_about{
-            height:175vh;
-        }
-        .about-heading {            
-            border: none;
-            top:10%;
-        }    
-    .video_section{
-        top:20%;
+
+    .hero_text {
+        width: 40rem;
+        font-size: 2.5rem;
+    }
+
+    .section_about {
+        height: 175vh;
+    }
+
+    .about-heading {
+        border: none;
+        top: 10%;
+    }
+
+    .video_section {
+        top: 20%;
         left: 50%;
         transform: translateX(-50%);
         width: 80rem;
     }
-    .about_text{
-        left:50%;
+
+    .about_text {
+        left: 50%;
         transform: translateX(-50%);
         width: 80rem;
-    }        
+    }
 
 }
 
-@media (max-width: 760px){
+@media (max-width: 760px) {
 
-    .section_one{
+    .section_one {
         height: 80vh;
     }
-    .hero{
+
+    .hero {
         top: 25%;
     }
-    .hero-heading{
+
+    .hero-heading {
         height: 15rem;
 
     }
-    .hero-heading span{
+
+    .hero-heading span {
         font-size: 6rem;
         letter-spacing: 1rem;
     }
-    .section_about{
+
+    .section_about {
         height: 165vh;
     }
+
     .about-heading {
         font-size: 5rem;
         border: none;
-        top:5%;
+        top: 5%;
     }
-    .team_heading{
+
+    .team_heading {
         font-size: 5rem;
     }
-    .video_section{
-        top:10%;
-        width:60rem;
 
-    }
-    .about_text{
-        width:60rem;
+    .video_section {
+        top: 10%;
+        width: 60rem;
 
     }
 
-    .footer{        
+    .about_text {
+        width: 60rem;
+
+    }
+
+    .footer {
         flex-direction: column;
         justify-content: center;
         align-items: flex-start;
-        height: 40rem;      
+        height: 40rem;
 
     }
-       
+
 }
 
-@media (max-width: 560px){
-    .hero-heading span{
+@media (max-width: 560px) {
+    .hero-heading span {
         font-size: 5rem;
     }
-    .section_about{
-        height: 135vh;
-    }
-    .about-heading{
-        border: none;
-        top:5%;
-    }
 
-    .video_section{
-        display: none;
-  
-      }
-    
-    .about_text{
-        width:45rem;
-
-    }
-
-
-@media (max-width: 460px){
-    .logo1{
-        visibility: hidden;
-    }
-    .logo2{
-        visibility: visible;
-        float:left;
-    }
-    .section_about{
-        height: 155vh;
-    }
-    .about-heading{
-        border: none;
-        top:5%;
-    }
-    .video_section{
-        display: none;
-  
-      }
-    
-    .about_text{
-        width:35rem;
-
-    }
-    .footer{
-        height: 50rem;
-    }
-
-}
-
-
-@media (max-width: 391px){
-
-    .section_about{
-        height: 195vh;
-        font-size: 1.5rem;
-    }
-.about-heading{
-    border: none;
-    top:5%;
-}
-    .video_section{
-      display: none;
-
-    }
-    .about_text{
-        width:25rem;
-
-    }
-    .hero-heading{
-        height: 10rem;
-        border-bottom: none;
-
-    }
-    
-    .hero-heading span{
-        font-size: 3rem;
-        letter-spacing: 1rem;
-    }
-    .hero_text{
-        width:30rem;
-        font-size: 1.5rem;
-    }
-    .card{
-        width: 27rem;
-        height: 35rem;
-    }
-    .card_info{
-        width: 27rem;
-        height: 35rem;
-    }
-html{
-    font-size: 50%;
-}}
-
-
-@media (min-width: 320px) {
     .section_about {
-        height: 160vh;
-        font-size: 1.5rem;
+        height: 135vh;
     }
 
     .about-heading {
@@ -1583,39 +1511,151 @@ html{
     }
 
     .about_text {
-        width: 30rem;
+        width: 45rem;
 
     }
 
-    .hero-heading {
-        height: 10rem;
-        border-bottom: none;
+
+    @media (max-width: 460px) {
+        .logo1 {
+            visibility: hidden;
+        }
+
+        .logo2 {
+            visibility: visible;
+            float: left;
+        }
+
+        .section_about {
+            height: 155vh;
+        }
+
+        .about-heading {
+            border: none;
+            top: 5%;
+        }
+
+        .video_section {
+            display: none;
+
+        }
+
+        .about_text {
+            width: 35rem;
+
+        }
+
+        .footer {
+            height: 50rem;
+        }
 
     }
 
-    .hero-heading span {
-        font-size: 3rem;
-        letter-spacing: 1rem;
+
+    @media (max-width: 391px) {
+
+        .section_about {
+            height: 195vh;
+            font-size: 1.5rem;
+        }
+
+        .about-heading {
+            border: none;
+            top: 5%;
+        }
+
+        .video_section {
+            display: none;
+
+        }
+
+        .about_text {
+            width: 25rem;
+
+        }
+
+        .hero-heading {
+            height: 10rem;
+            border-bottom: none;
+
+        }
+
+        .hero-heading span {
+            font-size: 3rem;
+            letter-spacing: 1rem;
+        }
+
+        .hero_text {
+            width: 30rem;
+            font-size: 1.5rem;
+        }
+
+        .card {
+            width: 27rem;
+            height: 35rem;
+        }
+
+        .card_info {
+            width: 27rem;
+            height: 35rem;
+        }
+
+        html {
+            font-size: 50%;
+        }
     }
 
-    .hero_text {
-        width: 30rem;
-        font-size: 1.5rem;
-    }
 
-    .card {
-        width: 37rem;
-        height: 45rem;
-    }
+    @media (min-width: 320px) {
+        .section_about {
+            height: 251vh;
+            font-size: 1.5rem;
+        }
 
-    .card_info {
-        width: 37rem;
-        height: 45rem;
-    }
+        .about-heading {
+            border: none;
+            top: 5%;
+        }
 
-    html {
-        font-size: 45%;
+        .video_section {
+            display: none;
+
+        }
+
+        .about_text {
+            width: 30rem;
+
+        }
+
+        .hero-heading {
+            height: 10rem;
+            border-bottom: none;
+
+        }
+
+        .hero-heading span {
+            font-size: 3rem;
+            letter-spacing: 1rem;
+        }
+
+        .hero_text {
+            width: 30rem;
+            font-size: 1.5rem;
+        }
+
+        .card {
+            width: 37rem;
+            height: 45rem;
+        }
+
+        .card_info {
+            width: 37rem;
+            height: 45rem;
+        }
+
+        html {
+            font-size: 45%;
+        }
     }
-}
 
 }
