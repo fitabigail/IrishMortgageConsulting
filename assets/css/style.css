@@ -1309,11 +1309,11 @@ canvas.myChart {
 
 /* Media query */
 
-@media (max-width: 1800px)
+@media (max-width: 2200px)
 
 {
     .section_about{
-        height:100vh;
+        height:130vh;
     }
    .video_section{
     width: 90rem;
@@ -1332,7 +1332,7 @@ canvas.myChart {
 @media (max-width: 1650px){
     
     .section_about{
-        height:170vh;
+        height:150vh;
     }
     .video_section{
         width: 85rem;
@@ -1400,7 +1400,7 @@ canvas.myChart {
         font-size: 2.5rem;}
     
     .section_about{
-            height:205vh;
+            height:175vh;
         }
         .about-heading {            
             border: none;
@@ -1437,7 +1437,7 @@ canvas.myChart {
         letter-spacing: 1rem;
     }
     .section_about{
-        height: 195vh;
+        height: 165vh;
     }
     .about-heading {
         font-size: 5rem;
@@ -1466,12 +1466,13 @@ canvas.myChart {
     }
        
 }
+
 @media (max-width: 560px){
     .hero-heading span{
         font-size: 5rem;
     }
     .section_about{
-        height: 135vh;
+        height: 125vh;
     }
     .about-heading{
         border: none;
@@ -1487,6 +1488,7 @@ canvas.myChart {
         width:45rem;
 
     }
+
 
 @media (max-width: 460px){
     .logo1{
@@ -1517,6 +1519,8 @@ canvas.myChart {
     }
 
 }
+
+
 @media (max-width: 391px){
 
     .section_about{
@@ -1560,6 +1564,7 @@ canvas.myChart {
 html{
     font-size: 50%;
 }}
+
 
 @media (min-width: 320px) {
     .section_about {
@@ -1613,3 +1618,4 @@ html{
     }
 }
 
+}
