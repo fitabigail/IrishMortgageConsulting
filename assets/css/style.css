@@ -1360,7 +1360,7 @@ canvas.myChart {
         top:5%;
     }
     .section_about{
-        height:150vh;
+        height:160vh;
     }
     .video_section{
         width: 85rem;
@@ -1472,7 +1472,7 @@ canvas.myChart {
         font-size: 5rem;
     }
     .section_about{
-        height: 125vh;
+        height: 135vh;
     }
     .about-heading{
         border: none;
@@ -1568,7 +1568,7 @@ html{
 
 @media (min-width: 320px) {
     .section_about {
-        height: 135vh;
+        height: 160vh;
         font-size: 1.5rem;
     }
 
