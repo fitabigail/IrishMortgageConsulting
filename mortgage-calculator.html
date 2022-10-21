@@ -9,7 +9,7 @@
     <meta name="keywords" content="irish, mortgages, , calculators">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
-    <link rel='shortcut icon' type='image/x-icon' href='favicon.ico'/>
+    <link rel='shortcut icon' type='image/x-icon' href='favicon.ico' />
     <title>IrishMortgagesConsulting</title>
 
 </head>
@@ -18,7 +18,8 @@
     <nav class="navbar">
 
         <div class="logo">
-            <a href="index.html"><span>I</span>rish<span>M</span>ortgages<span>C</span>onsulting</a>
+            <a href="index.html" class="logo1"><span>I</span>rish<span>M</span>ortgages<span>C</span>onsulting</a>
+            <a href="index.html" class="logo2"><span>IMC</span></a>
         </div>
         <div class="nav_links">
             <a href="index.html" class="nav_link">Home</a>
@@ -40,9 +41,9 @@
 
         <section class="section_banner">
 
-            <div class="hero">
+            <div class="hero hero_calc">
                 <h1 class="hero-heading">
-                    <span class="title_one">Mortgage Calculator</span>
+                    <span class="title_one title_banner">Mortgage Calculator</span>
                 </h1>
 
             </div>
@@ -53,58 +54,58 @@
 
             <div class="text-wp">
                 <h1 class="mortgage-heading">First Step before applying</h1>
-                <div class="mortgage_line"></div>
+                <div class="mortgage_line">
                 <p class="mortgage-paragraph">
                     This calculator shows you what your monthly repayments would be for a mortgage, depending on the
                     amount you borrow, how long you want the mortgage to last and the rate you pay. The results are
                     estimates only and may differ slightly from some financial institutions, as interest may be
                     calculated in a slightly different way. Note: Suggested Mortgage rate to enter: 3.5%
                 </p>
+                </div>
             </div>
         </section>
+
+
+        <!--Mortgage calculator-->
 
         <div class="heading-calc">
             <h2>Mortgage Calculator</h2>
             <div class="heading_calc_line"></div>
         </div>
-        <!--Mortgage calculator-->
 
-        <div class="mortgage_calc_wp">
-            <section class="mortgage_calc">
+        <section class="mortgage_calc">
 
-                <div class="top">
+            <div class="top">
 
-                    <form action="#" class="mortgage-form">
+                <form action="#" class="mortgage-form">
 
-                        <div class="group">
-                            <label class="title" for="amount">Mortgage Amount</label>
-                            <input type="number" class="mortgage_amount" value="10000" id="amount" min="5000"
-                                required />
+                    <div class="group">
+                        <label class="title" for="amount">Mortgage Amount</label>
+                        <input type="number" class="mortgage_amount" value="10000" id="amount" min="5000" required />
 
-                            <p class="mortgage-form--help">Min 50000</p>
-                        </div>
+                        <p class="mortgage-form--help">Min 50000</p>
+                    </div>
 
-                        <div class="group">
-                            <label class="title" for="lengh">Lengh of mortgage</label>
-                            <input type="number" class="mortgage_years" value="10" id="lengh" min="1" max="30"
-                                required />
+                    <div class="group">
+                        <label class="title" for="lengh">Lengh of mortgage</label>
+                        <input type="number" class="mortgage_years" value="10" id="lengh" min="1" max="30" required />
 
-                            <p class="mortgage-form--help">Min 1 year, max 30 years</p>
-                        </div>
+                        <p class="mortgage-form--help">Min 1 year, max 30 years</p>
+                    </div>
 
-                        <div class="group">
-                            <label class="title" for="interest">Interest Rate</label>
-                            <input type="number" class="interest_rate" value="3.5" id="interest" required />
+                    <div class="group">
+                        <label class="title" for="interest">Interest Rate</label>
+                        <input type="number" class="interest_rate" value="3.5" id="interest" required />
 
-                            <p class="mortgage-form--help">Suggested Mortgage rate 3.5%</p>
-                        </div>
+                        <p class="mortgage-form--help">Suggested Mortgage rate 3.5%</p>
+                    </div>
 
 
-                    </form>
+                </form>
 
-                </div>
-            </section>
-        </div>
+            </div>
+        </section>
+
 
         <section class="results">
 
@@ -136,7 +137,7 @@
 
             <div class="right">
                 <canvas id="myChart"></canvas>
-                
+
             </div>
 
 
@@ -165,7 +166,7 @@
                 <!--copied code-->
                 <label class="toggler-wrapper style-1">
                     <input type="checkbox">
-                    <span class="toggler-slider" >
+                    <span class="toggler-slider">
                         <span class="toggler-knob"></span>
                     </span>
                 </label>
@@ -179,6 +180,7 @@
 
             <div class="close_btn">&#10005;</div>
         </div>
+        
     </div>
 
     <footer class="footer">
@@ -217,6 +219,7 @@
     <script src="assets/js/calculator.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
         integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script> 
-</body>   
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+
 </html>
