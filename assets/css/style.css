@@ -1769,7 +1769,7 @@ canvas.myChart {
     }
 }
 
-@media( min-width: 650px){
+@media( max-width: 650px){
     .hero-heading{
         height: 10rem;
     }
@@ -1803,7 +1803,7 @@ canvas.myChart {
     }
 }
 
-@media( min-width: 550px){
+@media( max-width: 550px){
     .hero-heading{
         height: 8rem;
     }
