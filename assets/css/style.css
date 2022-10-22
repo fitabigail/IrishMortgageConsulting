@@ -1981,7 +1981,32 @@ canvas.myChart {
        
         display:none;
     }
+  
+}
+/* Media query for Contact Us*/
 
+@media (max-width:950px){
+    .contact_us{
+        height: 120vh;
+    }
+    .contact_us_left{
+        display:none;
+    }
+    .flip-contact{
+        width: 100%;
+    }
+    .wrapper-contact_us{        
     
+    width:40rem;
+    height:100vh;
+    }
+}
+
+@media (max-width:580px){
+    .wrapper-contact_us{        
+        margin: 25rem auto;
+        width:90%;
+        height:80%
+        }
 
 }
