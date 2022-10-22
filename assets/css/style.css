@@ -1998,15 +1998,19 @@ canvas.myChart {
     .wrapper-contact_us{        
     
     width:40rem;
-    height:100vh;
+    height:110vh;
     }
 }
 
-@media (max-width:580px){
+@media (min-width:320px){
+    .contact_us{
+        height: 140vh;
+    }
     .wrapper-contact_us{        
-        margin: 25rem auto;
-        width:90%;
-        height:80%
+       
+        height: 120vh;
+       
         }
+        
 
 }
