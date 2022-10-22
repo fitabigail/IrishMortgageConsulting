@@ -678,7 +678,7 @@ html {
     padding-bottom: 3rem;
 }
 
-.text-wp {    
+.text-wp {
     width: 100%;
     height: 80vh;
     position: relative;
@@ -1684,7 +1684,7 @@ canvas.myChart {
     }
 
     .mortgage_calc .top {
-       
+
         height: 30vh;
     }
 }
@@ -1696,7 +1696,7 @@ canvas.myChart {
 
     .mortgages_wp {
         height: 100vh;
-        ;
+
     }
 
     .mortgage-paragraph {
@@ -1705,12 +1705,12 @@ canvas.myChart {
     }
 
     .mortgage_calc {
-        height: 60vh;
+        height: 65vh;
     }
 
     .mortgage_calc .top {
-       
-        height: 40vh;
+
+        height: 50vh;
     }
 
     .booking-wp {
@@ -1723,17 +1723,19 @@ canvas.myChart {
     span.title_banner {
         font-size: 6rem;
     }
+
     .heading_calc_line {
         display: none;
-    }   
-    
-    .mortgage-paragraph{        
+    }
+
+    .mortgage-paragraph {
         left: 50%;
         transform: translateX(-50%);
         width: 80rem;
-        
+
     }
-    .text-wp{
+
+    .text-wp {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -1741,91 +1743,137 @@ canvas.myChart {
         margin-bottom: 5rem;
         height: 40vh;
     }
-        
-    .mortgages_wp{
-            height: 110vh;
-        }
+
+    .mortgages_wp {
+        height: 110vh;
+    }
 }
 
-@media (max-width: 950px){
+@media (max-width: 950px) {
     .form_wp {
         width: 90rem;
     }
-    .form_input{
-        width:30rem;
+
+    .form_input {
+        width: 30rem;
     }
 
 }
 
-@media (max-width: 768px){
+@media (max-width: 768px) {
+    .mortgages_wp {
+        height: 130vh;
+    }
+
+    .mortgage-paragraph {
+        width: 70rem;
+    }
+
     .form_wp {
         width: 80rem;
     }
-    .form_input{
-        width:30rem;
+
+    .form_input {
+        width: 30rem;
     }
-    .header h1{
+
+    .header h1 {
         font-size: 3rem;
     }
+
+    .top form {
+        flex-direction: column;
+    }
+
+    .mortgage_calc {
+        height: 140vh;
+    }
+
+    .mortgage_calc .top {
+        height: 125vh;
+    }
+
+
 }
 
-@media( max-width: 650px){
-    .hero-heading{
+@media(max-width: 650px) {
+    .hero-heading {
         height: 10rem;
     }
+
     span.title_banner {
         font-size: 4rem;
     }
-    .mortgage-heading{
-        font-size: 4rem;;
+
+    .mortgage-heading {
+        font-size: 4rem;
+
     }
-    .mortgage-paragraph{
-        width: 60rem;
+
+    .mortgages_wp {
+        height: 140vh;
     }
-    .mortgage_calc form{
+
+    .mortgage-paragraph {
+        width: 55rem;
+    }
+
+    .mortgage_calc form {
         flex-direction: column;
     }
-    .mortgage_calc{
-        height:120vh;
+
+    .mortgage_calc {
+        height: 140vh;
     }
-    .mortgage_calc .top{
-        height: 100vh;
+
+    .mortgage_calc .top {
+        height: 125vh;
     }
 
     .form_wp {
         width: 60rem;
     }
-    .form_input{
-        width:20rem;
+
+    .form_input {
+        width: 20rem;
     }
-    .header h1{
+
+    .header h1 {
         font-size: 2rem;
     }
 }
 
-@media( max-width: 550px){
-    .hero-heading{
+@media(max-width: 550px) {
+    .hero-heading {
         height: 8rem;
     }
+
     span.title_banner {
         font-size: 3rem;
     }
-    .mortgage-heading{
-        font-size: 3.5rem;;
+
+    .mortgage-heading {
+        font-size: 3.5rem;
+
     }
-    .heading-calc h2{ 
+
+    .heading-calc h2 {
         font-size: 3.5rem;
     }
-    .mortgage-paragraph{
+
+    .mortgage-paragraph {
         width: 55rem;
     }
-    .mortgage_calc form{
+
+    .mortgage_calc form {
         flex-direction: column;
     }
-    .mortgage_calc{
-        height:120vh;
+
+    .mortgage_calc {
+        height: 120vh;
     }
-    .mortgage_calc .top{
+
+    .mortgage_calc .top {
         height: 80vh;
     }
 
@@ -1833,69 +1881,87 @@ canvas.myChart {
         width: 70rem;
         height: 65rem;
     }
-    .form_input{
-        width:15rem;
+
+    .form_input {
+        width: 15rem;
     }
-    .header h1{
+
+    .header h1 {
         font-size: 1.8rem;
     }
-    .booking_form .button{
-        width:15rem;
+
+    .booking_form .button {
+        width: 15rem;
     }
 }
 
-@media (max-width:549px){
-    .hero-heading{
+@media (max-width:549px) {
+    .hero-heading {
         height: 6rem;
     }
+
     span.title_banner {
         font-size: 2.5rem;
     }
-    .mortgage-heading{
-        font-size: 3rem;;
+
+    .mortgage-heading {
+        font-size: 3rem;
+
     }
-    .heading-calc h2{ 
+
+    .heading-calc h2 {
         font-size: 3rem;
     }
-    .mortgage-paragraph{
+
+    .mortgage-paragraph {
         width: 40rem;
     }
-    .mortgages_wp{
+
+    .mortgages_wp {
         height: 150vh;
     }
-    .mortgage_calc form{
+
+    .mortgage_calc form {
         flex-direction: column;
     }
-    .mortgage_calc{
-        height:120vh;
+
+    .mortgage_calc {
+        height: 120vh;
     }
-    .mortgage_calc .top{
+
+    .mortgage_calc .top {
         height: 100vh;
     }
 
-    .results{
+    .results {
         flex-direction: column;
         align-items: center;
-       
+
     }
-    .results .calc_btn{
+
+    .results .calc_btn {
         margin-left: 0;
     }
-    .right{
+
+    .right {
         padding-bottom: 5rem;
     }
-    .booking_banner{
+
+    .booking_banner {
         font-size: 4rem;
     }
-    .form_wp form{
-        width:100%;
+
+    .form_wp form {
+        width: 100%;
     }
-    .form_wp .header{
+
+    .form_wp .header {
         width: 0%;
     }
-    .header h1{
+
+    .header h1 {
         visibility: hidden;
     }
-    
-    
+
+
 }
