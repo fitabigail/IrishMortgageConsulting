@@ -27,13 +27,13 @@
             <a href="contact_us.html" class="nav_link">Contact Us</a>
 
         </div>
-    
-    <div class="menu">
-        <div class="line line-1"></div>
-        <div class="line line-2"></div>
-        <div class="line line-3"></div>
 
-    </div>
+        <div class="menu">
+            <div class="line line-1"></div>
+            <div class="line line-2"></div>
+            <div class="line line-3"></div>
+
+        </div>
     </nav>
     <div class="contact_us">
 
@@ -54,11 +54,29 @@
                     <div class="flip-contact-back">
                         <form class="form-contact" onsubmit="sendEmail(); reset(); return false;">
                             <h1>Get in Touch</h1>
-                            <input type="text" id="name" placeholder="Your Name" required>
-                            <input type="email" id="email" placeholder="Your Email" required>
-                            <input type="text" id="phone" placeholder="Phone no." required>
-                            <textarea name="textarea" id="message" rows="4" placeholder="How can we help you?"></textarea>
-                            <button type="submit" aria-label="Submit">Submit</button>
+                            <div class="input_group">
+                                <input type="text" id="name" placeholder="Your Name" onkeyup="validateName()">
+                                <span id="name-error"></span>
+                            </div>
+
+                            <div class="input_group">
+                                <input type="email" id="email" placeholder="Your Email" onkeyup="validateEmail()">
+                                <span id="email-error"></span>
+                            </div>
+
+                            <div class="input_group">
+                                <input type="text" id="phone" placeholder="Phone no." onkeyup="validatePhone()">
+                                <span id="phone-error"></span>
+                            </div>
+                            <div class="input_group">
+                                <textarea name="textarea" id="message" rows="4"
+                                    placeholder="How can we help you?" onkeyup="validateText()"></textarea>
+                                <span id="text-error"></span>
+                            </div>
+                            
+                                <button type="submit"  onclick="return validateFormCotact()" aria-label="Submit">Submit</button>
+                                <span id="submit-error"></span>
+                            
                         </form>
                     </div>
                 </div>
@@ -81,8 +99,8 @@
         <div class="social">
             <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-square"> Facebook</i></a>
             <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter-square"> Twiter</i></a>
-            <a href="https://www.instagram.com/" target="_blank"><i
-                    class="fab fa-instagram-square"> Instagram</i></a><br><br>
+            <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram-square">
+                    Instagram</i></a><br><br>
             <p class="address">Telephone: (01) 239 3220 <br><br>
                 Email: hello@irishmortgages.ie</p>
 
@@ -92,12 +110,13 @@
         </p>
 
     </footer>
-    
+
     <script src="assets/js/contact_us.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
         integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src=" https://smtpjs.com/v3/smtp.js"></script> 
-    
+    <script src=" https://smtpjs.com/v3/smtp.js"></script>
+
 </body>
+
 </html>

@@ -154,13 +154,19 @@
             <div class="booking_arrow">
                 <i class="fas fa-arrow-down"></i>
             </div>
-            <button class="booking_btn">Book here</button>
+            <button class="booking_btn" id="book_bt">Book here</button>
 
         </div>
-        <div class="form_wp">
-            <form onsubmit="myBooking()" class="booking_form">
-                <input type="text" class="form_input" placeholder="FULL NAME">
-                <input type="email" class="form_input" placeholder="EMAIL ADDRESS">
+        <div class="form_wp" id="fom_book">
+           
+            <form  name="meeting"  onsubmit="return myBooking();" class="booking_form">
+                
+                <input type="text" class="form_input" id="full_name" name="full_name" placeholder="FULL NAME">
+                             
+                
+                <input type="email" name="email" id="email" class="form_input" placeholder="EMAIL ADDRESS">
+                  
+             
                 <p>Get News?</p><br>
                 <span>No</span>
                 <!--copied code-->
@@ -172,14 +178,18 @@
                 </label>
                 <!--end copied code-->
                 <span>Yes</span>
+               
                 <button type="submit" class="btn-form-sub">Book Here</button>
+            
             </form>
+
             <div class="header">
                 <h1>Welcome to <span>I</span>rish<span>M</span>ortgages<span>C</span>onsulting</h1>
             </div>
 
-            <div class="close_btn">&#10005;</div>
+            <div class="close_btn"id="close_bt">&#10005;</div>
         </div>
+       
 
     </div>
 

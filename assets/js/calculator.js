@@ -88,16 +88,33 @@ calculateBtn.addEventListener("click", init);
 
 // Booking Form
 
-document.querySelector('.booking_btn').addEventListener('click', () => {
+  document.querySelector('.booking_btn').addEventListener('click', () => {
   document.querySelector('.booking').style.display = 'none';
   document.querySelector('.form_wp').style.cssText = 'opacity: 1; visibility: visible';
 });
-document.querySelector('.close_btn').addEventListener('click', () => {
+  document.querySelector('.close_btn').addEventListener('click', () => {
   document.querySelector('.booking').style.display = 'flex';
   document.querySelector('.form_wp').style.cssText = 'opacity: 0; visibility: hidden';
 });
 
-function myBooking() {
-  alert("Thank you for your booking request. Soon one of our team will be in touch with you.");
-  window.location.replace('https://fitabigail.github.io/IrishMortgageConsulting/mortgage-calculator.html');
+function myBooking(){
+  var errormessage = "";  
+
+  if(document.getElementById("full_name").value == "" ){
+    errormessage += "Enter your name.\n";
+    document.getElementById("full_name").style.borderColor = "red";
+  }
+  
+  if(document.getElementById("email").value == ""){
+    errormessage += "Enter your email address.\n";
+    document.getElementById("email").style.borderColor = "red";
+  }
+
+  if(errormessage !=""){
+    alert(errormessage);
+    return false;  } 
+
+  window.alert("Thank you for your message,\n one of our team member will contact you soon"); 
+  window.location.replace('https://fitabigail.github.io/IrishMortgageConsulting/mortgage-calculator.html');  
+  return true;
 }

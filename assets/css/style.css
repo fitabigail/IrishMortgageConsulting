@@ -1089,8 +1089,7 @@ canvas.myChart {
 
 /* end of copied code*/
 
-
-.booking_form button {
+.form_wp button{
 
     display: block;
     margin-top: 10rem;
@@ -1101,6 +1100,7 @@ canvas.myChart {
     border: 2px solid #fff;
     border-radius: 50px;
     outline: none;
+    text-align: center;
     font-size: 15px;
     letter-spacing: 1px;
     cursor: pointer;
@@ -1308,7 +1308,29 @@ canvas.myChart {
     box-shadow: 0 0.1rem 0.6rem rgba(0, 0, 0, 0.3);
     border-radius: 1rem;
 }
+/* style input-group*/
 
+.input_group{
+    width:100%;
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    position: relative;
+}
+.input_group span{
+    position: absolute;
+    bottom: 12px;
+    right: 17px;
+    font-size: 1.5rem;
+    font-weight:bold;
+    color: rgba(255, 0, 0, 0.329);
+}
+.input_group span i{
+    color: #ce5713;
+}
+#submit-error{
+    color: rgba(255, 0, 0, 0.329);
+}
 
 /* Media query Home Page */
 
@@ -1956,12 +1978,10 @@ canvas.myChart {
     }
 
     .form_wp .header {
-        width: 0%;
+       
+        display:none;
     }
 
-    .header h1 {
-        visibility: hidden;
-    }
-
+    
 
 }
