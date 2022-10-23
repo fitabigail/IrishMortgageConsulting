@@ -9,7 +9,7 @@
     <meta name="keywords" content="irish, mortgages, , calculators">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
-    <link rel='shortcut icon' type='image/x-icon' href='favicon.ico' />
+    <link rel='shortcut icon' type='image/x-icon' href='favicon.ico'>
     <title>IrishMortgagesConsulting</title>
 
 </head>
@@ -82,7 +82,7 @@
                     <div class="group">
                         <label class="title" for="amount">Mortgage Amount</label>
                         <input type="number" class="mortgage_amount" value="10000" id="amount" min="0" oninput="this.value = 
-                        !!this.value && Math.abs(this.value) >= 0 ? Math.abs(this.value) : null" required />
+                        !!this.value && Math.abs(this.value) >= 0 ? Math.abs(this.value) : null" required >
 
                         <p class="mortgage-form--help">Min 50000</p>
                     </div>
@@ -90,7 +90,7 @@
                     <div class="group">
                         <label class="title" for="lengh">Lengh of mortgage</label>
                         <input type="number" class="mortgage_years" value="10" id="lengh" min="1" max="30" oninput="this.value = 
-                        !!this.value && Math.abs(this.value) >= 0 ? Math.abs(this.value) : null" required />
+                        !!this.value && Math.abs(this.value) >= 0 ? Math.abs(this.value) : null" required>
 
                         <p class="mortgage-form--help">Min 1 year, max 30 years</p>
                     </div>
@@ -98,7 +98,7 @@
                     <div class="group">
                         <label class="title" for="interest">Interest Rate</label>
                         <input type="number" class="interest_rate" value="3.5" min = "0" id="interest" oninput="this.value = 
-                        !!this.value && Math.abs(this.value) >= 0 ? Math.abs(this.value) : null"  required />
+                        !!this.value && Math.abs(this.value) >= 0 ? Math.abs(this.value) : null"  required>
 
                         <p class="mortgage-form--help">Suggested Mortgage rate 3.5%</p>
                     </div>
@@ -167,7 +167,7 @@
                 <input type="text" class="form_input" id="full_name" name="full_name" pattern="[A-Z a-z]{20}" title="Only letters" placeholder="FULL NAME">
                              
                 
-                <input type="email" name="email" id="email" class="form_input" placeholder="EMAIL ADDRESS">
+                <input type="email" name="email" id="email" class="form_input" placeholder="EMAIL ADDRESS" title="john.doe@example.com">
                   
              
                 <p>Get News?</p><br>
@@ -190,7 +190,7 @@
                 <h1>Welcome to <span>I</span>rish<span>M</span>ortgages<span>C</span>onsulting</h1>
             </div>
 
-            <div class="close_btn"id="close_bt">&#10005;</div>
+            <div class="close_btn" id="close_bt">&#10005;</div>
         </div>
        
 
