@@ -97,13 +97,15 @@ calculateBtn.addEventListener("click", init);
   document.querySelector('.form_wp').style.cssText = 'opacity: 0; visibility: hidden';
 });
 
-function myBooking(){
-  var errormessage = "";  
 
-  if(document.getElementById("full_name").value == "" ){
+
+function myBooking(){
+  var errormessage = "";    
+
+  if(document.getElementById("full_name").value == ""){
     errormessage += "Enter your name.\n";
     document.getElementById("full_name").style.borderColor = "red";
-  }
+  }  
   
   if(document.getElementById("email").value == ""){
     errormessage += "Enter your email address.\n";
@@ -118,3 +120,7 @@ function myBooking(){
   window.location.replace('https://fitabigail.github.io/IrishMortgageConsulting/mortgage-calculator.html');  
   return true;
 }
+       
+  
+  
+

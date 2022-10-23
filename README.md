@@ -63,7 +63,7 @@ For general questions, and office contact they can rich the Contact Us page wher
   I choose 'Playfair Display' as the font for the site. The headers and forms on all pages throughout the Website are using 'Oswald' font.
 
    #### Wireframes
-  CTRL + Click to open in a new tab.
+ 
   
   <details> 
 
@@ -106,7 +106,7 @@ For general questions, and office contact they can rich the Contact Us page wher
 
 ### About section
  
-- About section include a video with a custom control, achived with javascript code. On clicking the video button will start the video, and a bar will roll. If press the pause button the video will stop playing.
+- About section include a video with a custom control, achived with javascript code. On clicking the video button will start the video, and a bar will roll. If press the pause button the video will stop playing. The video is display for screens of 550px and wider.
 
 ![HOME PAGE](./assets/readmeImages/about.png)
 
@@ -146,7 +146,7 @@ The second part is the Booking Form  with two parts: on the left side has the in
 
 ### Contact Us Page
 
-- Contact us page has as a future fliping Contact Form with two sides. On the first side the user can read the office address, and on the other side is the contact form with input fields for name, email, phone, message and a submit buttom. The user on submition will get an alert message. The contact form is calling Smtp.com script plugin. This required an SMTP server, which I could implemented as required a domain to be owned.This is a feature plan to add integration with an email autoresponder service, such as Sendgrid.
+- Contact us page has as a future fliping Contact Form with two sides. On the first side the user can read the office address, and on the other side is the contact form with input fields for name, email, phone, message and a submit buttom. The user on submition will get an alert message. 
 
 
 ![CONTACT US PAGE](./assets/readmeImages/contact-us.png)
@@ -195,7 +195,7 @@ I would like to add extra features to the site such us:
 - [befunky.com](https://www.befunky.com/)  used to resize the images files.
 - [Cloudinary](https://cloudinary.com/console) used to host and served the video file through cloudinary.
 -[jQuery](https://releases.jquery.com/jquery/) use to implement tilt.js for team profile card moving effect;
--[SmtpJS.com](https://releases.jquery.com/jquery/) used for contact us form;
+-[responsivedesignchecker.com/](https://responsivedesignchecker.com/) used for check responsivenes;
 
    
 </details>  

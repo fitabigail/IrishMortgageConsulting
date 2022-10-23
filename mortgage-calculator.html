@@ -162,9 +162,9 @@
         </div>
         <div class="form_wp" id="fom_book">
            
-            <form  name="meeting"  class="booking_form">
+            <form  name="meeting" id="meeting" onsubmit="return myBooking();" class="booking_form">
                 
-                <input type="text" class="form_input" id="full_name" name="full_name" placeholder="FULL NAME">
+                <input type="text" class="form_input" id="full_name" name="full_name" pattern="[A-Z a-z]{20}" title="Only letters" placeholder="FULL NAME">
                              
                 
                 <input type="email" name="email" id="email" class="form_input" placeholder="EMAIL ADDRESS">
@@ -182,7 +182,7 @@
                 <!--end copied code-->
                 <span>Yes</span>
                
-                <button type="submit" onclick="return myBooking();" class="btn-form-sub">Book Here</button>
+                <button type="submit" class="btn-form-sub">Book Here</button>
             
             </form>
 

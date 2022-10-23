@@ -1215,11 +1215,12 @@ canvas.myChart {
 
 /* style front side*/
 
-.flip-contact-front {
+.flip-contact-back {
     background-color: rgb(233, 227, 227);
     color: black;
     padding: 3rem 10rem;
     font-family: 'Oswaldo', sans-serif;
+    transform: rotateY(180deg);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -1228,29 +1229,24 @@ canvas.myChart {
 
 }
 
-.flip-contactfront h1 {
-    font-family: 'Oswald', sans-serif;
-    font-size: 3.5rem;
-    margin: 2rem auto;
-}
 
-.flip-contact-front div {
+.flip-contact-back div {
     margin-top: 3rem;
     align-items: flex-start;
 }
 
 /* Style the back side */
 
-.flip-contact-back {
+.flip-contact-front {
     background-color: #b3420e;
     color: white;
-    transform: rotateY(180deg);
+    
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.flip-contact-back .form-contact {
+.flip-contact-front .form-contact {
     background: transparent;
     display: flex;
     flex-direction: column;
@@ -2010,7 +2006,6 @@ canvas.myChart {
        
         height: 120vh;
        
-        }
-        
+        }        
 
 }
