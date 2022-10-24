@@ -41,7 +41,7 @@ function validateEmail(){
         return false;
     }
     if(!email.match(/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/)){
-        emailError.innerHTML = "Invalid email.";        /*check for email format*/
+        emailError.innerHTML = "ex:johndoe@example.com.";        /*check for email format*/
         return false;
     }
 

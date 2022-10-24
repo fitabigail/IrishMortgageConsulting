@@ -225,9 +225,9 @@ I would like to add extra features to the site such us:
   Configure menu. 
 <details>
 
-![JAVASCRIPT CALCULATOR Validator](./assets/readmeImages/javasript-calculator-validation.png)
+![JAVASCRIPT CALCULATOR Validator](./assets/readmeImages/cotactjs-validator.png)
 
-![JAVASCRIPT index Validator](./assets/readmeImages/javacript-1.png)
+![JAVASCRIPT index Validator](./assets/readmeImages/calculatorjs-validator.png)
   </details>
 
    ### Lighthouse
@@ -235,12 +235,12 @@ I would like to add extra features to the site such us:
   It should be noted that the performance score was variable, ranging from the low eighties to 100 for desktop and mobile.  
 <details>
 
-![LIGHTHOUSE HOME PAGE DESKTOP](./assets/readmeImages/deskto-index.png)
-![LIGHTHOUSE HOME PAGE MOBILE ](./assets/readmeImages/mobile-index.png)
-![LIGHTHOUSE CALCULATOR PAGE DESKTOP](./assets/readmeImages/desktop-calculator.png)
-![LIGHTHOUSE CALCULATOR PAGE MOBILE](./assets/readmeImages/mobile-calculator.png)
-![LIGHTHOUSE CONTACT US PAGE DESKTOP](./assets/readmeImages/desktop-contact-us.png)
-![LIGHTHOUSE CONTACT US MOBILE](./assets/readmeImages/mobile-contact_us.png)
+![LIGHTHOUSE HOME PAGE DESKTOP](./assets/readmeImages/lighthouse-desk-index.png)
+![LIGHTHOUSE HOME PAGE MOBILE ](./assets/readmeImages/lighthouse-mob-index.png)
+![LIGHTHOUSE CALCULATOR PAGE DESKTOP](./assets/readmeImages/lighthouse-desk-calculator.png)
+![LIGHTHOUSE CALCULATOR PAGE MOBILE](./assets/readmeImages/lighthouse-mob-calculator.png)
+![LIGHTHOUSE CONTACT US PAGE DESKTOP](./assets/readmeImages/lighthouse-desk-contactus.png)
+![LIGHTHOUSE CONTACT US MOBILE](./assets/readmeImages/lighthouse-mob-contactus.png)
 </details>
 
 
