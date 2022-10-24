@@ -86,7 +86,7 @@ For general questions, and office contact they can rich the Contact Us page whic
 
 
 
-   ![screenshot of samsung S5](./assets/readmeImages/mobile-view-index.png)        ![screenshot of samsung S5](./assets/readmeImages/responsive-calculator.png)           ![screenshot of samsung S5](./assets/readmeImages/mobile-ph-contact.png);
+              
 
 
 
@@ -96,7 +96,7 @@ For general questions, and office contact they can rich the Contact Us page whic
 
    - A feature on all three pages, the full responsive navigation bar includes a link to Logo, Home page, Calculator page and Contact Us page and is identical on each page to allow easy navigation. On page loading, the navigation bar drops down smoothly to catch up user's attention. On the left side, the navbar has the logo linked to the Home page, and on the right side is the hamburger menu. On mouse click, the hamburger is switching to an arrow and a full-screen page is loading with the page's links, a feature achieved with javascript code.
 
-    ![HOME PAGE](./assets/readmeImages/navbar.png)
+
 
 
 ### Section one - the landing
@@ -204,6 +204,7 @@ I would like to add extra features to the site such as:
 </details>  
   
 # Testing 
+
 <details>
   <summary>Testing</summary>
 
@@ -248,6 +249,7 @@ I would like to add extra features to the site such as:
 
 
 ### Responsiveness
+  
    Media queries based on screen width were used to ensure the page was displayed correctly across a range of screen sizes.
   Chrome, Firefox, Safari, and Edge browsers were used to test responsiveness.  
   
@@ -300,6 +302,8 @@ Testing of form validation will also be required to ensure the correct inputs ar
 The live Project can be found [here](https://fitabigail.github.io/IrishMortgageConsulting/).</br>
 
  * Testing During the development of the pages was done through the project to see how the project looked and felt
+ 
+ 
 | Feature                 |  Expect                                     |  Action         |  Result                                  |
 |-------------------------|---------------------------------------------|-----------------|------------------------------------------|
 | Logo                    |  Link to home page                          | Click On        | Load the home page                       |
@@ -336,6 +340,7 @@ The live Project can be found [here](https://fitabigail.github.io/IrishMortgageC
 + On the footer section the copyright paragraph on flex display is not on the same line as others. I will fix this in the future;
 + The pie chart should reset with the new amount and interest pie when inputting values into the mortgage amount field. At this stage the pie chart is updated on changes in the years and interest values;
 </details>
+
 ### GitHub Pages
 
 # Deployment
