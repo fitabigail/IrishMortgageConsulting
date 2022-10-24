@@ -81,6 +81,7 @@
 
                     <div class="group">
                         <label class="title" for="amount">Mortgage Amount</label>
+                        <!--add javascript code to avoid negative input values-->
                         <input type="number" class="mortgage_amount" value="10000" id="amount" min="0" oninput="this.value = 
                         !!this.value && Math.abs(this.value) >= 0 ? Math.abs(this.value) : null" required >
 

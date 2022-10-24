@@ -248,9 +248,9 @@ I would like to add extra features to the site such us:
   Media queries based on screen width were used to ensure the page displayed correctly across a range of screen sizes.
   The Chrome, Firefox, Safari and Edge browsers were used to test responsiveness.  
   
-  Breakpoints used are as follows 320px, 360px, 400px, 450px, 500px, 550px,  600px, 650px, 700px, 750px, 800px, 850px, 880px, 900px, 950px, 980px, 1200px and 1600px. 
+  Breakpoints used are as follows 320px, 391px, 460px, 549px, 550px, 560px, 650px,760px, 768px, 950px, 991px, 1250px, 1450px, 1500px, 1650px, 1920px and 2200px. 
 
- I also used the device specific tool within Chrome and Edge to test a number of devices representing a wide range of device types.  
+ I also used the device specific tool within Chrome, Edge and Media Genesis (https://responsivedesignchecker.com/) to test a number of devices representing a wide range of device types.  
   The results are given below.
 
   |Device                 |  Result        |
@@ -266,8 +266,16 @@ I would like to add extra features to the site such us:
     
  ### Issues Encountered Building The Site
 
-A brief summary of some of the difficulties I had building this site and how I attempted to fix them.  
+A brief summary of some of the difficulties I had building this site and how I attempted to fix them. 
 
+ 
+ + Cards info in the Our Team section of the landing page had text which was not illegible when hovered over. I fixed this issue by setting diffrent opacity.
+ + On smaller devices much of the text was illegible due to its font-size, I have redefined all the media query;
+ +  Contact Us form was potentially inaccessible as the form only appeared in the hover state. I fixed this by cancel the fliping card view.
+ + The contact form itself could be submitted without the user providing a supporting message. I fixed this issue by wrinting a proper javascript code with validation and a submitting message.
+ + User was able to enter invalid or empty data in forms. Fixed by javascript validation code;
+ + Errors in console while page load/performing user actions ON CONTACT US page. Fixed by remiving  any javascript code not related wuth the page;
+ + The mortgage calculator, was allows negative figures to be input leading to nonsensical outputs. Fixed by adding a javascript code on inputs on html; 
  + I had many problems positioning the text div from Calculator page and fixed using diffrent percents for 'font-size', widh and height set on vh to get them to satisfactorily position on diffrent devices.
  + The chart pie cause me trouble on diffrent devices size, as had a predefined style. I changed the width and height of canvas html element and adapted to diffrent screen size.
  + The checked box from Booking for put me in difficulty as I tried to set the konb and was not fit on the right spot. So I decide to get already writen code and adapted to my site style, which worked well only the html validator did not allow div as a child of a label so I replaced and fixed the error with a span element.
@@ -290,26 +298,25 @@ The live Project can be found [here](https://fitabigail.github.io/IrishMortgageC
 
  * Testing During development of the pages was done through the project to see how the project looked and felt
 
-| Feature                |  Expect                                     |  Action         |  Result                                  |
-|------------------------|---------------------------------------------|-----------------|------------------------------------------|
-| Logo                   |  Link to home page                          | Click On        | Load the home page                       |
-| Banner home animation  |  Animation                                  | On Load         | Animation                                |
-| Dicover button         |  Link to calculator page                    | Click On        | Load the calculator page                 |
-| Hamburger Menu         |  Open on full page                          | Click On        | Load menu page                           |
-| Hamburger Menu Arrow   |  Transform                                  | Click On        | Arrow                                    |
-| Social Media Icons     |  Link to socialmedia                        | Click On        | New tab opened                           |
-| Video                  |  Play on                                    | Click on        | Play the video                           |
-| Profile cards          |  Show text and move                         | On hover        | Show text and move                       |
-| Calculator             |  Calculate the mortgage payments            | On input values | Show the results                         |
-| Calculator button      |  Show results                               | Click On        | Show the results                         |
-| Pie CHART              |  Post interest to pay and mortgage amount   | On Load         | Post interest to pay and mortgage amount |
-| Booking button         |  Open booking form                          | Click On        | Open booking form                        |
-| Booking fields         |  Accept the inputs value                    | On input        | Accept the inputs value                  |
-| Booking checkbox       |  To check                                   | On check        | To check                                 |
-| Booking form button    |  Show message                               | Click On        | Show the message                         |
-| Contact form flip      | Flipp on pointer                            | On pointer      | Flipp on pointer                         |
-| Contact form fields    | Accept the inputs value                     | Click On        | Accept the inputs value                  |
-| Contact form button    |  Show message                               | Click On        | Show message                             |
+| Feature                 |  Expect                                     |  Action         |  Result                                  |
+|-------------------------|---------------------------------------------|-----------------|------------------------------------------|
+| Logo                    |  Link to home page                          | Click On        | Load the home page                       |
+| Banner home animation   |  Animation                                  | On Load         | Animation                                |
+| Discover button         |  Link to calculator page                    | Click On        | Load the calculator page                 |
+| Hamburger Menu          |  Open on full page                          | Click On        | Load menu page                           |
+| Hamburger Menu Arrow    |  Transform                                  | Click On        | Arrow                                    |
+| Social Media Icons      |  Link to socialmedia                        | Click On        | New tab opened                           |
+| Video                   |  Play on                                    | Click on        | Play the video                           |
+| Profile cards           |  Show text and move                         | On hover        | Show text and move                       |
+| Calculator              |  Calculate the mortgage payments            | On input values | Show the results                         |
+| Calculator button       |  Show results                               | Click On        | Show the results                         |
+| Pie CHART               |  Post interest to pay and mortgage amount   | On Load         | Post interest to pay and mortgage amount |
+| Booking button          |  Open booking form                          | Click On        | Open booking form                        |
+| Booking fields          |  Accept the inputs value                    | On input        | Accept the inputs value                  |
+| Booking checkbox        |  To check                                   | On check        | To check                                 |
+| Booking form button     |  Show message                               | Click On        | Show the message                         |
+| Contact form fields     | Accept the inputs value                     | Click On        | Accept the inputs value                  |
+| Contact form button     |  Show message                               | Click On        | Show message                             |
 
 ### Issues and Resolutions to issues found during testing
 
@@ -318,9 +325,11 @@ The live Project can be found [here](https://fitabigail.github.io/IrishMortgageC
 
 ### Issues Remaining (Known to me)
 
-+ There are large space over the Home and Calculator page. This issue could be fixed by resize the divs, but beacause a short time I will leave this for another time.
++ There are large space over the Home and Calculator page. This issue  I have tried to fixed but still  have some space, but beacause a short time I will leave this for another time.
 + The bottom height of calculator background increasing once the  device size is decreasing;
-+ I shoud increase the color contrast and font size;
++ The Booking and Contact us for could post the data to a server. This feature I will leave for future developmet;
++ On mobile view test to my Iphone 12 and Samsung galaxy s10 the Booking form has error as first it does't show the title of the patten, so the user does not know the name field has only letter message, second after inputs the form it does not fit on the section, and is difficult to scroll over form;
++ On footer section the copyright paragrah on flex display it is not on the same line with others. I will fix this on future;
 + The pie chart should reset with the new amount and interest pie  when input values to mortgage amount field. At this stage the pie chart is updating on change of the years and interest values;
 </details>
 
@@ -417,10 +426,10 @@ As this project was developed on the main branch, all changes made to the reposi
 
 ### Code/Reference 
 
-- Code Institute without I would have had no base to begin a project & Readme.md Template .https://codeinstitute.net/ie/
-- GitHub for my workspace and saving all my work as well as my deployed project . https://github.com/ ;  
-- The Slack community - for someone always been there no matter the time and with advice or direction. https://slack.com';
-- https://smartmortgages.ie/ - inspired me for building the site and get the content from them;
+ - https://codeinstitute.net/ie/- Code Institute without I would have had no base to begin a project & Readme.md Template;
+ -  https://github.com/ - GitHub for my workspace and saving all my work as well as my deployed project;
+ - https://slack.com'-The Slack community - for someone always been there no matter the time and with advice or direction;
+ - https://smartmortgages.ie/ - inspired me for building the site and get the content from them;
  - https://stackoverflow.com/users/6887992/aperezfals - the method of redirect to calculator page after message is closed;
  - https://www.udemy.com/course/10-mega-responsive-websites-with-html-css-and-javascript/learn/lecture/23410300#overview - Udemy course for home page, helping me to build a nice layout;
  - https://www.udemy.com/course/50-web-projects-with-html-css-and-javascript/learn/lecture/32013882#overview -Udemy course for booking form;
