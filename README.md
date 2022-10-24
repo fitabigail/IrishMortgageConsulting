@@ -2,17 +2,17 @@
 
 # Irish Mortgage Consulting
 
-Project is deployed [here]( https://fitabigail.github.io/IrishMortgageConsulting/)   
-Github repository is [here](https://github.com/fitabigail) 
+The Project is deployed [here]( https://fitabigail.github.io/IrishMortgageConsulting/)   
+GitHub repository is [here](https://github.com/fitabigail) 
 
 
 
 ![screen shot of am i responsive](./assets/readmeImages/am_responsive.png)
 
 # Introduction
-This project is the second one I've undertaken as part of the Full Stack Software Diploma course at [Codeinstitute.net](https://www.CodeInstitute.net).
-It is an website about mortgages trough broker. The mortgage broker offer advices  to the user about the requirements in relation to obtain a mortgage and guide him though the mortgage application process. The user is able to build a picture over the future mortgage using a handy calculator to determine how much will be his repayments, the cost of mortgage, and total amount to be pay. Also they have the option to book a meeting trough a Booking Form to meet with one of  the team member to have an in-depth knowledge of the mortgage.
-For general questions, and office contact they can rich the Contact Us page where is the office address with email and phone number, and a Contact Form with input fields for name, email and message. 
+This project is the second one I've undertaken as part of the Full Stack Software Diploma course at [Codeinstitute.net](https://www.CodeInstitutE.net).
+It is an website about mortgages trough brokers. The mortgage broker offers advice to the user about the requirements in relation to obtaining a mortgage and guides him through the mortgage application process. The user is able to build a picture of the future mortgage using a handy calculator to determine how much will be his repayments, the cost of the mortgage, and the total amount to be paid. Also, they have the option to book a meeting through a Booking Form to meet with one of the team members to have in-depth knowledge of the mortgage.
+For general questions, and office contact they can rich the Contact Us page which is the office address with email and phone number, and a Contact Form with input fields for name, email, and message. 
 
 
 # User Experience Design
@@ -23,25 +23,25 @@ For general questions, and office contact they can rich the Contact Us page wher
 
 ### User stories
 
-#### First Time Visitor Goals
+#### First-Time Visitor Goals
 
 - As a First Time user, I want to easily understand the main purpose of the site.
-- As a First Time user, I want to be able to easily navigate throughout the site to find content.
+- As a First Time user, I want to be able to easily navigate through the site to find content.
 - As a First Time user, I want to view the website and content clearly on my mobile device.
-- As a First Time user, I want the website the team is qualified with years of industry experience.
+- As a First Time user, I want the website team to be qualified with years of industry experience.
 - As a First Time user, I want to find ways to follow the IrishMortgageConsulting on different social media platforms.
 
 ### Returning Visitor Goals
 
-- As a Returning user, I want to reused the mortgage calculator for future house upgrades.
-- As a Returning user, I want to get update team profiles.
-- As a Returning user, I want to contact the organisation so I can request more information.
+- As a Returning user, I want to reuse the mortgage calculator for future house upgrades.
+- As a Returning user, I want to get updated team profiles.
+- As a Returning user, I want to contact the organization so I can request more information.
 
 ### Frequent Visitor Goals
 
-- As a Frequent user, I want to check  the mortgage calculator.
-- As a Frequent user, I want to check if there are any news about mortgage requirements.
-- As a Frequent user, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the mortgage requirements.
+- As a Frequent user, I want to check the mortgage calculator.
+- As a Frequent user, I want to check if there is any news about mortgage requirements.
+- As a Frequent user, I want to sign up for the Newsletter so that I am emailed any major updates and/or changes to the mortgage requirements.
 
 ### Design
 
@@ -50,8 +50,9 @@ For general questions, and office contact they can rich the Contact Us page wher
   #### Colour Scheme 
 
 
-  I tried different colour palettes whilst building the website and settled on a simple combination of shades of orange, grey, white and black.
-  Black, and white is used for text color and contrast well with the other two primary colours. Default Orange was used for the link color on hover, and for buttons. Diffrent shades of white, grey, and orange where used for backgrounds.
+ 
+  I tried different color palettes whilst building the website and settled on a simple combination of shades of orange, grey, white, and black.
+  Black and white are used for text color and contrast well with the other two primary colors. Default Orange was used for the link color on hover, and for buttons. Different shades of white, grey, and orange were used for the backgrounds.
   - grey : hsla(0, 8%, 5%, 0.9), rgba(0, 0, 0, 0.5); rgba(7, 6, 6, 0.925); rgba(0, 0, 0, 0.87), rgba(0, 0, 0, 0.6);
   - white: antiquewhite, aliceblue ;
   - orange: #ce5713,  #8f2b04;
@@ -93,51 +94,51 @@ For general questions, and office contact they can rich the Contact Us page wher
 
 ### Navbar
 
-  - A feature on all three pages, the full responsive navigation bar includes link to Logo, Home page, Calculator page and Contact Us page and is indentical in each page to allow easy navigation. On page loading the navigation bar drop down smoothly to catch up user attention. On left side the navbar has the logo linked to Home page, and a on the right side is the hamburger menu. On mouse click the hamburger is swiching to an arow and a full screen page is loading with the pages links, feature achived with javascript code.
+   - A feature on all three pages, the full responsive navigation bar includes a link to Logo, Home page, Calculator page and Contact Us page and is identical on each page to allow easy navigation. On page loading, the navigation bar drops down smoothly to catch up user's attention. On the left side, the navbar has the logo linked to the Home page, and on the right side is the hamburger menu. On mouse click, the hamburger is switching to an arrow and a full-screen page is loading with the page's links, a feature achieved with javascript code.
 
     ![HOME PAGE](./assets/readmeImages/navbar.png)
 
 
 ### Section one - the landing
 
-  - This section include several diffrent css annimations on loading page. This include a big  animated banner with two titles bussines related subject, an welcome title, and dicover button  with a shine effect linked with Calculator page.
-
+  - This section includes several different CSS animations on the loading page. This includes a big animated banner with two titles business-related subject, a welcome title, and a discover button with a shine effect linked with the Calculator page.
    ![HOME PAGE](./assets/readmeImages/landing-banner.png)
 
 ### About section
  
-- About section include a video with a custom control, achived with javascript code. On clicking the video button will start the video, and a bar will roll. If press the pause button the video will stop playing. The video is display for screens of 550px and wider.
+- About section include a video with a custom control, achieved with javascript code. Clicking the video button will start the video, and a bar will roll. If press the pause button the video will stop playing. The video is displayed for screens of 550px and wider.
 
 ![HOME PAGE](./assets/readmeImages/about.png)
 
 ### Team section
 
-- This section  shows profile cards of the three members team. When hover the card  some information about the member will appear with a nice and cool hoover effect, the cards moves smooth with the cursor direction. This effect was achived calling JQuery cdn tools for plugin tilt.js.
+- This section shows the profile cards of the three members team. When hovering the card some information about the member will appear with a nice and cool hoover effect, the cards move smoothly with the cursor direction. This effect was achieved by calling JQuery CDN tools for the plugin tilt.js.
 
 ![HOME PAGE](./assets/readmeImages/team.png)
 
 
 ### Footer 
-- The footer is a simple one which offer information about office address, and include easy access to the main relevant social media sites for Irish Mortgage Consulting.
+- The footer is a simple one that offers information about the office address and includes easy access to the main relevant social media sites for Irish Mortgage Consulting.
+
 
 ![HOME PAGE](./assets/readmeImages/footer.png)
   
   
 ### Scroll button
-- Home and Calculator has a scrool button with a smooth move to top of the pages( used javascript for a smooth move).   
+- Home and Calculator have a scroll button with a smooth move to the top of the pages( used javascript for a smooth move).     
     
  ### CALCULATOR Page
 
 
 ### Calculator section
-- Include a mortgage calculator to calculate the monthly repayments, cost of mortgage, and total to pay. Also include a pie chart which diplay amount borrowed and interest to pay. All this features are achived with javascrit code.
+- Include a mortgage calculator to calculate the monthly repayments, cost of the mortgage, and total to pay. Also, include a pie chart that displays the amount borrowed and interest to pay. All these features are achieved with javascript code.
 
 ![CALCULATOR PAGE](./assets/readmeImages/calcul-top.png)
 ![CALCULATOR PAGE](./assets/readmeImages/calc-results.png)
 
 ### Booking section
-- This section includes two parts. First the banner with an animated arrow created with style css, and a button on click is opening the booking form.
-The second part is the Booking Form  with two parts: on the left side has the inputs fields, a check box (style css), an a submit button; on the right an image with a welcome message. On the right bottom corner has a closing button on x shape to exit the form(javascript code used for form). On submition will display an alert message.
+- This section includes two parts. First, the banner with an animated arrow created with style CSS, and a button on click is opening the booking form.
+The second part is the Booking Form with two parts: on the left side has the inputs fields, a check box (style CSS), and a submit button; on the right an image with a welcome message. On the right bottom corner has a closing button on the x shape to exit the form(javascript code used for form). On submission will display an alert message.
 
 ![CALCULATOR  PAGE](./assets/readmeImages/book-meeting.png)
 ![CALCULATOR PAGE](./assets/readmeImages/form-booking.png)
@@ -146,7 +147,7 @@ The second part is the Booking Form  with two parts: on the left side has the in
 
 ### Contact Us Page
 
-- Contact us page has as a future fliping Contact Form with two sides. On the first side the user can read the office address, and on the other side is the contact form with input fields for name, email, phone, message and a submit buttom. The user on submition will get an alert message. 
+- Contact us page has a future flipping Contact Form with two sides. On the first side the user can read the office address, and on the other side is the contact form with input fields for name, email, phone, message, and a submit button. The user on submission will get an alert message. 
 
 
 ![CONTACT US PAGE](./assets/readmeImages/contact-us.png)
@@ -157,13 +158,14 @@ The second part is the Booking Form  with two parts: on the left side has the in
 
 ### Possible Future Features
 
-I would like to add extra features to the site such us:
+
+I would like to add extra features to the site such as:
 
  - to add in the future is integration with an email autoresponder service, such as Sendgrid;
- - two more morgage calculator, one for Mortgage Rate Change Calculator and one for Extra Mortgage Payments Calculator;
- - a blog where to post the lastes new from industry;
- - a Live Chat Service could be implemented to provide instant answers to user specific questions.
- - a register form help the user to create an account and upload required documentation;
+ - two more mortgage calculators, one for Mortgage Rate Change Calculator and one for Extra Mortgage Payments Calculator;
+ - a blog where to post the latest news from the industry;
+ - a Live Chat Service could be implemented to provide instant answers to user-specific questions.
+ - a register form helps the user to create an account and upload required documentation;
 
  </details>    
 
@@ -179,23 +181,24 @@ I would like to add extra features to the site such us:
 
   #### Applications Used
 
+
 - [Balsamiq](https://www.balsamiq.com) was used to create wireframes for this project.
 - [Google Fonts](https://fonts.google.com/) fonts were downloaded from Google Fonts.
 - [Fontawesome](https://www.fontawesome.com) icons were downloaded from Font Awesome.com.
 - [Git](https://git-scm.com/) Git was used for version control.
-- [GitHub](https://github.com/) GitHub is used to store the projects code.
+- [GitHub](https://github.com/) GitHub is used to store the code of the project.
 - [Gitpages](https://pages.github.com/) Gitpages are used to deploy the site.
 - [Chrome Developer Tools](https://developer.chrome.com/docs/devtools/) used for layout and responsive testing.
 - [favICO.com](https://convertico.com/favicon/) used for creating favicon.
-- [W3 Validator](https://jigsaw.w3.org/css-validator/) used to test html and css code.
+- [W3 Validator](https://jigsaw.w3.org/css-validator/) used to test HTML and CSS code.
 - [Jshint](https://jshint.com/) used to validate Javascript code.
-- [Freeconvert.com](https://www.freeconvert.com) was used to convert the background image file to the  webp format.
-- [Pexels.com](https://www.pexels.com) was used for free images.
-- [Caniuse.com/webp](https://caniuse.com/webp)  used to check compatibility of the webp file format.
+- [Freeconvert. com](https://www.freeconvert.com) was used to convert the background image file to the  wepp format.
+- [Pexels. com](https://www.pexels.com) was used for free images.
+- [Caniuse. com/webp](https://caniuse.com/webp)  used to check compatibility of the webp file format.
 - [befunky.com](https://www.befunky.com/)  used to resize the images files.
-- [Cloudinary](https://cloudinary.com/console) used to host and served the video file through cloudinary.
+- [Cloudinary](https://cloudinary.com/console) used to host and served the video file through Cloudinary.
 -[jQuery](https://releases.jquery.com/jquery/) use to implement tilt.js for team profile card moving effect;
--[responsivedesignchecker.com/](https://responsivedesignchecker.com/) used for check responsivenes;
+-[responsivedesignchecker. com/](https://responsivedesignchecker.com/) used for check responsiveness;
 
    
 </details>  
@@ -214,7 +217,7 @@ I would like to add extra features to the site such us:
 </details>
 
 ### W3c HTML Validator
-  The HTML was tested with the W3c HTML Validator with no error returned all three pages.  
+  The HTML was tested with the W3c HTML Validator with no error returned on all three pages.  
 <details>
 
  ![HTML Validator](./assets/readmeImages/html-index-validator.png)
@@ -245,12 +248,12 @@ I would like to add extra features to the site such us:
 
 
 ### Responsiveness
-  Media queries based on screen width were used to ensure the page displayed correctly across a range of screen sizes.
-  The Chrome, Firefox, Safari and Edge browsers were used to test responsiveness.  
+   Media queries based on screen width were used to ensure the page was displayed correctly across a range of screen sizes.
+  Chrome, Firefox, Safari, and Edge browsers were used to test responsiveness.  
   
   Breakpoints used are as follows 320px, 391px, 460px, 549px, 550px, 560px, 650px,760px, 768px, 950px, 991px, 1250px, 1450px, 1500px, 1650px, 1920px and 2200px. 
 
- I also used the device specific tool within Chrome, Edge and Media Genesis (https://responsivedesignchecker.com/) to test a number of devices representing a wide range of device types.  
+ I also used the device-specific tool within Chrome, Edge, and Media Genesis (https://responsivedesignchecker.com/) to test a number of devices representing a wide range of device types.    
   The results are given below.
 
   |Device                 |  Result        |
@@ -269,26 +272,26 @@ I would like to add extra features to the site such us:
 A brief summary of some of the difficulties I had building this site and how I attempted to fix them. 
 
  
- + Cards info in the Our Team section of the landing page had text which was not illegible when hovered over. I fixed this issue by setting diffrent opacity.
- + On smaller devices much of the text was illegible due to its font-size, I have redefined all the media query;
- +  Contact Us form was potentially inaccessible as the form only appeared in the hover state. I fixed this by cancel the fliping card view.
- + The contact form itself could be submitted without the user providing a supporting message. I fixed this issue by wrinting a proper javascript code with validation and a submitting message.
+ + Cards info in the Our Team section of the landing page had text which was not illegible when hovered over. I fixed this issue by setting different opacity.
+ + On smaller devices much of the text was illegible due to its font size, I have redefined all the media queries;
+ +  Contact Us form was potentially inaccessible as the form only appeared in the hover state. I fixed this by canceling the flipping card view.
+ + The contact form itself could be submitted without the user providing a supporting message. I fixed this issue by writing a proper javascript code with validation and a submitting message.
  + User was able to enter invalid or empty data in forms. Fixed by javascript validation code;
- + Errors in console while page load/performing user actions ON CONTACT US page. Fixed by remiving  any javascript code not related wuth the page;
- + The mortgage calculator, was allows negative figures to be input leading to nonsensical outputs. Fixed by adding a javascript code on inputs on html; 
- + I had many problems positioning the text div from Calculator page and fixed using diffrent percents for 'font-size', widh and height set on vh to get them to satisfactorily position on diffrent devices.
- + The chart pie cause me trouble on diffrent devices size, as had a predefined style. I changed the width and height of canvas html element and adapted to diffrent screen size.
- + The checked box from Booking for put me in difficulty as I tried to set the konb and was not fit on the right spot. So I decide to get already writen code and adapted to my site style, which worked well only the html validator did not allow div as a child of a label so I replaced and fixed the error with a span element.
- + On booking form submit button on click apper a message to user and shoud return to the Calculator page. I write the function myBooking() to write the alert message and retun to page. The function was not working as I used form action attribute from w3 web page for testing example. Now I know no need of action attibute, if I have a function to call.
-+ I had to become familiar with many new (to me) css properties such as transform-origin, transform-style, backface-visibility and perspective. 
+ + Errors in console while page loads/performing user actions ON CONTACT US page. Fixed by removing  any javascript code not related to the page;
+ + The mortgage calculator, allowed negative figures to be input leading to nonsensical outputs. Fixed by adding a javascript code on inputs on Html; 
+ + I had many problems positioning the text div from the Calculator page and fixed them using different percentages for 'font-size', width, and height set on vh to get them to satisfactorily position on different devices.
+ + The chart pie cause me trouble with different devices size, as had a predefined style. I changed the width and height of the canvas Html element and adapted it to different screen sizes.
+ + The checked box from Booking put me in difficulty as I tried to set the konb and was not fit on the right spot. So I decide to get already written code and adapted it to my site style, which worked well only the Html validator did not allow div as a child of a label so I replaced and fixed the error with a span element.
+ + On the booking form submit button click more ap a message to the user and should return to the Calculator page. I write the function myBooking() to write the alert message and return to the page. The function was not working as I used the form action attribute from the w3 web page for testing examples. Now I know no need for an action attribute if I have a function to call.
++ I had to become familiar with many new (to me) CSS properties such as transform-origin, transform-style, backface-visibility, and perspective. 
 
 ### Manual Testing for Bugs
 
-Testing is required on Irish MortgageConsulting Responsive Website.
+Testing is required on the Irish MortgageConsulting Responsive Website.
 
 The project is developed primarily using HTML and CSS, with a small amount of JavaScript implemented for additional functionality.
-The testing performed will be on back-end and front-end. Testing to be done on at least three web browsers and all screen sizes.
-All navigation links should direct to the correct html pages as per their names. The Home page is the exception, this one will redirect to index.html. 
+The testing performed will be on the back end and front end. Testing is to be done on at least three web browsers and all screen sizes.
+All navigation links should direct to the correct Html pages as per their names. The Home page is the exception, this one will redirect to index.html. 
 
 All links to external websites must open in a new browser.
 
@@ -296,8 +299,7 @@ Testing of form validation will also be required to ensure the correct inputs ar
 
 The live Project can be found [here](https://fitabigail.github.io/IrishMortgageConsulting/).</br>
 
- * Testing During development of the pages was done through the project to see how the project looked and felt
-
+ * Testing During the development of the pages was done through the project to see how the project looked and felt
 | Feature                 |  Expect                                     |  Action         |  Result                                  |
 |-------------------------|---------------------------------------------|-----------------|------------------------------------------|
 | Logo                    |  Link to home page                          | Click On        | Load the home page                       |
@@ -317,22 +319,23 @@ The live Project can be found [here](https://fitabigail.github.io/IrishMortgageC
 | Booking form button     |  Show message                               | Click On        | Show the message                         |
 | Contact form fields     | Accept the inputs value                     | Click On        | Accept the inputs value                  |
 | Contact form button     |  Show message                               | Click On        | Show message                             |
+| Scrool button           |  Load the start page                        | Click On        | Goes to the top of page                  |
+
 
 ### Issues and Resolutions to issues found during testing
 
-- booking form after clossing message alert was not redirected to calculator page, issue fixed;
-- the contact form did not send the email with the message, the plugin used https://smtpjs.com/ required SMTP server and I couldn't used my elastic email host account https://elasticemail.com/ because the domain must be verified. Us the gitpod domain name is not owned it can not be verified; 
+- booking form after closing message alert was not redirected to calculator page, issue fixed;
+- the contact form did not send the email with the message, the plugin used https://smtpjs.com/ required an SMTP server and I couldn't use my elastic email host account https://elasticemail.com/ because the domain must be verified. Us the gitpod domain name is not owned it can not be verified; 
 
 ### Issues Remaining (Known to me)
 
-+ There are large space over the Home and Calculator page. This issue  I have tried to fixed but still  have some space, but beacause a short time I will leave this for another time.
-+ The bottom height of calculator background increasing once the  device size is decreasing;
-+ The Booking and Contact us for could post the data to a server. This feature I will leave for future developmet;
-+ On mobile view test to my Iphone 12 and Samsung galaxy s10 the Booking form has error as first it does't show the title of the patten, so the user does not know the name field has only letter message, second after inputs the form it does not fit on the section, and is difficult to scroll over form;
-+ On footer section the copyright paragrah on flex display it is not on the same line with others. I will fix this on future;
-+ The pie chart should reset with the new amount and interest pie  when input values to mortgage amount field. At this stage the pie chart is updating on change of the years and interest values;
++ There is a large space over the Home and Calculator page. This issue  I have tried to fixed but still have some space, but because of the short time, I will leave this for another time.
++ The bottom height of the calculator background increases once the  device size is decreasing;
++ The Booking and Contact us for could post the data to a server. This feature I will leave this for future development;
++ On mobile view test to my iPhone 12 and Samsung galaxy s10 the Booking form has an error as first it doesn't show the title of the pattern, so the user does not know the name field has only a letter message, second after inputs the form it does not fit on the section and is difficult to scroll over form;
++ On the footer section the copyright paragraph on flex display is not on the same line as others. I will fix this in the future;
++ The pie chart should reset with the new amount and interest pie when inputting values into the mortgage amount field. At this stage the pie chart is updated on changes in the years and interest values;
 </details>
-
 ### GitHub Pages
 
 # Deployment
@@ -426,23 +429,23 @@ As this project was developed on the main branch, all changes made to the reposi
 
 ### Code/Reference 
 
- - https://codeinstitute.net/ie/- Code Institute without I would have had no base to begin a project & Readme.md Template;
+  - https://codeinstitute.net/ie/- Code Institute without I would have had no base to begin a project & Readme.md Template;
  -  https://github.com/ - GitHub for my workspace and saving all my work as well as my deployed project;
  - https://slack.com'-The Slack community - for someone always been there no matter the time and with advice or direction;
  - https://smartmortgages.ie/ - inspired me for building the site and get the content from them;
- - https://stackoverflow.com/users/6887992/aperezfals - the method of redirect to calculator page after message is closed;
+ - https://stackoverflow.com/users/6887992/aperezfals - the method of redirecting to the calculator page after the message is closed;
  - https://www.udemy.com/course/10-mega-responsive-websites-with-html-css-and-javascript/learn/lecture/23410300#overview - Udemy course for home page, helping me to build a nice layout;
  - https://www.udemy.com/course/50-web-projects-with-html-css-and-javascript/learn/lecture/32013882#overview -Udemy course for booking form;
- - https://www.youtube.com/watch?v=kIvft1uEi4Y&t=0s - Live Blogger youtube channel help me to create to calculator;
- -  https://dev.to/bosspetta/mortgage-loan-calculator-with-javascript-2la7 - Dev Community help me to understand how declares the values;
- - https://www.youtube.com/watch?v=xvXtb7mwMd8 - SIX MINUTES.SMARTE youtube channel for Booking Form help me to check with javascript blank fliels;
+ - https://www.youtube.com/watch?v=kIvft1uEi4Y&t=0s - Live Blogger youtube channel help me to create to the calculator;
+ -  https://dev.to/bosspetta/mortgage-loan-calculator-with-javascript-2la7 - Dev Community help me to understand how to declare the values;
+ - https://www.youtube.com/watch?v=xvXtb7mwMd8 - SIX MINUTES.SMARTE youtube channel for Booking Form help me to check with javascript blank fields;
  - https://blog.hubspot.com/website/opacity-css#:~:text=To%20set%20the%20opacity%20of,invisible) - help me to set text opacity for team members;
- - https://qawithexperts.com/questions/373/prevent-negative-value-from-being-entered-in-html-input-type - copied and added to calculator inputs fieds on html to avoid negative values;
+ - https://qawithexperts.com/questions/373/prevent-negative-value-from-being-entered-in-html-input-type - copied and added to calculator inputs fields on Html to avoid negative values;
  - https://www.youtube.com/watch?v=fz8bwvn9lA4 - Easy Tutorials youtube channel javascript Contact Us Form;
  - https://stackoverflow.com/questions/3073850/javascript-regex-test-peoples-name -regex for name validation, only letters;
  - https://www.w3resource.com/javascript/form/email-validation.php - regex pattern copied for email format. Valid format: mysite@ourearth.com/my.ownsite@ourearth.org/mysite@you.me.net  ;
  - https://www.w3resource.com/javascript/form/phone-no-validation.php = regex phone number format. Valid format:XXX-XXX-XXXX/XXX.XXX.XXXX/XXX XXX XXXX ;
- - https://www.w3schools.com/tags/att_input_pattern.asp - help me to inplement html validator at Booking Form for fiels.The inputs must follow the patternformat;
+ - https://www.w3schools.com/tags/att_input_pattern.asp - help me to implement an Html validator at Booking Form for the field.The inputs must follow the pattern format;
  - https://www.w3schools.com/ - guide me for flipping contact form;
 
 ### Note 
