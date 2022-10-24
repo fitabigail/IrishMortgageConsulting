@@ -426,7 +426,14 @@ As this project was developed on the main branch, all changes made to the reposi
  - https://www.udemy.com/course/50-web-projects-with-html-css-and-javascript/learn/lecture/32013882#overview -Udemy course for booking form;
  - https://www.youtube.com/watch?v=kIvft1uEi4Y&t=0s - Live Blogger youtube channel help me to create to calculator;
  -  https://dev.to/bosspetta/mortgage-loan-calculator-with-javascript-2la7 - Dev Community help me to understand how declares the values;
- - https://www.youtube.com/watch?v=sGQSz22U8VM - Easy youtube chanel tutorials for contact us form;
+ - https://www.youtube.com/watch?v=xvXtb7mwMd8 - SIX MINUTES.SMARTE youtube channel for Booking Form help me to check with javascript blank fliels;
+ - https://blog.hubspot.com/website/opacity-css#:~:text=To%20set%20the%20opacity%20of,invisible) - help me to set text opacity for team members;
+ - https://qawithexperts.com/questions/373/prevent-negative-value-from-being-entered-in-html-input-type - copied and added to calculator inputs fieds on html to avoid negative values;
+ - https://www.youtube.com/watch?v=fz8bwvn9lA4 - Easy Tutorials youtube channel javascript Contact Us Form;
+ - https://stackoverflow.com/questions/3073850/javascript-regex-test-peoples-name -regex for name validation, only letters;
+ - https://www.w3resource.com/javascript/form/email-validation.php - regex pattern copied for email format. Valid format: mysite@ourearth.com/my.ownsite@ourearth.org/mysite@you.me.net  ;
+ - https://www.w3resource.com/javascript/form/phone-no-validation.php = regex phone number format. Valid format:XXX-XXX-XXXX/XXX.XXX.XXXX/XXX XXX XXXX ;
+ - https://www.w3schools.com/tags/att_input_pattern.asp - help me to inplement html validator at Booking Form for fiels.The inputs must follow the patternformat;
  - https://www.w3schools.com/ - guide me for flipping contact form;
 
 ### Note 
