@@ -11,8 +11,8 @@ GitHub repository is [here](https://github.com/fitabigail)
 
 # Introduction
 This project is the second one I've undertaken as part of the Full Stack Software Diploma course at [Codeinstitute.net](https://www.CodeInstitutE.net).
-It is an website about mortgages trough brokers. The mortgage broker offers advice to the user about the requirements in relation to obtaining a mortgage and guides him through the mortgage application process. The user is able to build a picture of the future mortgage using a handy calculator to determine how much will be his repayments, the cost of the mortgage, and the total amount to be paid. Also, they have the option to book a meeting through a Booking Form to meet with one of the team members to have in-depth knowledge of the mortgage.
-For general questions, and office contact they can rich the Contact Us page which is the office address with email and phone number, and a Contact Form with input fields for name, email, and message. 
+It is a website about mortgages through brokers. The mortgage broker offers advice to the user about the requirements in relation to obtaining a mortgage and guides him through the mortgage application process. The user is able to build a picture of the future mortgage using a handy calculator to determine how much will be his repayments, the cost of the mortgage, and the total amount to be paid. Also, they have the option to book a meeting through a Booking Form to meet with one of the team members to have in-depth knowledge of the mortgage.
+For general questions and office contact they can rich the Contact Us page which is the office address with email and phone number, and a Contact Form with input fields for name, email, and message. 
 
 
 # User Experience Design
@@ -106,7 +106,7 @@ For general questions, and office contact they can rich the Contact Us page whic
 
 ### About section
  
-- About section include a video with a custom control, achieved with javascript code. Clicking the video button will start the video, and a bar will roll. If press the pause button the video will stop playing. The video is displayed for screens of 550px and wider.
+- About section include a video with custom control, achieved with javascript code. Clicking the video button will start the video, and a bar will roll. If press the pause button the video will stop playing. The video is displayed for screens of 550px and wider.
 
 ![HOME PAGE](./assets/readmeImages/about.png)
 
@@ -235,7 +235,7 @@ I would like to add extra features to the site such as:
   </details>
 
    ### Lighthouse
-  The web page was tested using the Lighthouse feature on the chrome browser giving the following result for desktop and mobile.    
+  The web page was tested using the Lighthouse feature on the Chrome browser giving the following result for desktop and mobile.    
   It should be noted that the performance score was variable, ranging from the low eighties to 100 for desktop and mobile.  
 <details>
 
@@ -333,12 +333,12 @@ The live Project can be found [here](https://fitabigail.github.io/IrishMortgageC
 
 ### Issues Remaining (Known to me)
 
-+ There is a large space over the Home and Calculator page. This issue  I have tried to fixed but still have some space, but because of the short time, I will leave this for another time.
++ There is a large space over the Home and Calculator page. This issue  I have tried to fix but still have some space, but because of the short time, I will leave this for another time.
 + The bottom height of the calculator background increases once the  device size is decreasing;
-+ The Booking and Contact us for could post the data to a server. This feature I will leave this for future development;
++ The Booking and Contact Us for could post the data to a server. This feature I will leave this for future development;
 + On mobile view test to my iPhone 12 and Samsung galaxy s10 the Booking form has an error as first it doesn't show the title of the pattern, so the user does not know the name field has only a letter message, second after inputs the form it does not fit on the section and is difficult to scroll over form;
-+ On the footer section the copyright paragraph on flex display is not on the same line as others. I will fix this in the future;
-+ The pie chart should reset with the new amount and interest pie when inputting values into the mortgage amount field. At this stage the pie chart is updated on changes in the years and interest values;
++ On the footer section, the copyright paragraph on flex display is not on the same line as others. I will fix this in the future;
++ The pie chart should reset with the new amount and interest pie when inputting values into the mortgage amount field. At this stage, the pie chart is updated on changes in the years and interest values;
 </details>
 
 ### GitHub Pages
